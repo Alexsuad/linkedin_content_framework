@@ -1,0 +1,38 @@
+# File: .gitignore
+# ──────────────────────────────────────────────────────────────────────
+# Propósito: Evitar subir trazas innecesarias, archivos locales y datos
+# generados durante la operación del harness, conservando la estructura
+# mínima de carpetas mediante archivos .gitkeep.
+# Rol: Configuración de control de versiones.
+# ──────────────────────────────────────────────────────────────────────
+
+# Ignorar contenido local del harness, pero conservar estructura base
+.harness/memory/*
+!.harness/memory/.gitkeep
+
+.harness/state/*
+!.harness/state/.gitkeep
+
+.harness/traces/*
+!.harness/traces/.gitkeep
+
+# Ignorar outputs generados, pero conservar carpeta de trazas
+output/*
+!output/trace/
+output/trace/*
+!output/trace/.gitkeep
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales o logs
+*.log
+*.tmp
+
+# Carpeta local personal para ZIPs exportados del repositorio
+# No debe versionarse porque contiene copias temporales para revisión externa.
+C:\\Mis Documentos\\archivos_zip/
+C:/Mis Documentos/archivos_zip/
+archivos_zip/
+*.zip
