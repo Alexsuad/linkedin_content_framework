@@ -28,6 +28,9 @@ Términos, frases o fórmulas de copy que están estrictamente prohibidos en cua
 Conceptos y modismos bloqueantes o restringidos que se pueden utilizar exclusivamente cuando el texto los describe como un error o práctica no recomendada que el lector debe evitar.
 *   **Ejemplos:** "automatizar un flujo caótico", "caer en la trampa de la consultoría tradicional".
 
+> [!IMPORTANT]
+> **Excepción de Auditoría:** Los patrones bloqueantes pueden aparecer en documentos de ejemplos únicamente cuando estén dentro de secciones claramente marcadas como ejemplo negativo, mala práctica, claim peligroso, CTA agresivo, caso mal contado o contenido que el sistema debe evitar. Esta excepción no aplica a dry runs, publicaciones candidatas, contratos de salida ni evidencias oficiales de piezas listas para aprobación.
+
 ### E. Permitido solo en caso de uso específico
 Palabras o lógicas autorizadas únicamente en aquellos subdirectorios o perfiles que traten directamente ese dominio (por ejemplo, vocabulario de transporte o almacenes en perfiles explícitamente creados para ese sector B2B).
 

@@ -36,18 +36,22 @@ Los ejemplos de esta biblioteca deben usarse para:
 ## 4. Ejemplo de problema
 *   **Problema genérico (abstracción sin anclaje real):**
     > *"Muchas empresas sufren retrasos y cometen fallos al procesar la información de sus clientes debido a la falta de herramientas modernas de software."*
-*   **Problema concreto (hecho reconocible):**
+*   **Problema concreto A (Operaciones/Logística):**
     > *"Un administrativo copia a mano los datos de un pedido desde un correo electrónico a una hoja de cálculo. Si se equivoca en un dígito de la dirección de entrega, el camión sale con retraso y el cliente reclama."*
-*   **Por qué funciona:** El problema concreto describe una escena de la vida real que el decisor (gerente de operaciones) reconoce y ha vivido en su propia organización.
+*   **Problema concreto B (Recursos Humanos/Procesos Internos):**
+    > *"Una empresa incorpora un nuevo especialista. En su primer día, nadie sabe qué accesos necesita, qué software debe configurar ni quién debe entregarle los manuales de bienvenida. El profesional pasa su primera semana inactivo, esperando en salas de reunión mientras el equipo administrativo busca en chats quién tiene las contraseñas."*
+*   **Por qué funciona:** El problema concreto describe una escena de la vida real que el decisor reconoce y ha vivido en su propia organización, anclándose en fricciones de onboarding y documentación del proceso.
 
 ---
 
 ## 5. Ejemplo de solución
 *   **Solución técnica (foco en la herramienta):**
     > *"Creamos un script de automatización en Python usando pandas y openpyxl conectado a una API de validación de direcciones con Webhooks en tiempo real."*
-*   **Solución orientada a resultado operativo:**
+*   **Solución orientada a resultado operativo A (Procesos de datos):**
     > *"Establecemos una regla de validación de datos en el punto de entrada. Si la dirección de entrega no existe en la base de datos maestra, el sistema bloquea el registro e impide emitir la orden de despacho hasta que se corrija."*
-*   **Por qué funciona:** El decisor comprende el beneficio funcional (impedir el despacho incorrecto) sin necesidad de entender la biblioteca o el lenguaje de programación utilizado.
+*   **Solución orientada a resultado operativo B (Servicios Profesionales / Onboarding de clientes):**
+    > *"En lugar de iniciar el trabajo creativo con información incompleta, estructuramos un formulario web con campos obligatorios para la entrega de activos de marca. Si falta algún acceso o archivo de estilo, el sistema no abre el proyecto del equipo de diseño, lo que ayuda a detectar faltantes antes de iniciar el trabajo y reduce idas y vueltas innecesarias."*
+*   **Por qué funciona:** El decisor comprende el beneficio funcional (bloquear el avance de datos corruptos o incompletos) sin necesidad de lidiar con jerga técnica o herramientas específicas.
 
 ---
 
@@ -61,20 +65,24 @@ Los ejemplos de esta biblioteca deben usarse para:
 ---
 
 ## 7. Ejemplo de CTA
-*   **CTA agresivo (vendedor insistente):**
+*   **CTA agresivo (vendedor de servicios):**
     > *"¡Agenda tu sesión de consultoría gratuita de 30 minutos ya! Haz clic en el enlace de mi perfil antes de que se agoten las plazas de la semana."*
-*   **CTA conversacional (invitación al diálogo):**
+*   **CTA conversacional A (Operaciones):**
     > *"¿Cómo controlan en su equipo que los datos de facturación no contengan errores manuales antes de enviarse? Los leo en comentarios."*
-*   **Por qué funciona:** El CTA conversacional abre un debate natural y profesional en la sección de comentarios de LinkedIn, lo que mejora la distribución del algoritmo y genera autoridad.
+*   **CTA conversacional B (Liderazgo profesional / Tecnología B2B):**
+    > *"¿Qué método utilizan en su equipo para documentar y mantener actualizados los accesos y roles críticos cuando entra un nuevo especialista? Compartan sus experiencias abajo."*
+*   **Por qué funciona:** La llamada a la acción abre un debate natural y profesional en la sección de comentarios de LinkedIn, lo que mejora la distribución del algoritmo y genera autoridad técnica sin sonar comercial.
 
 ---
 
 ## 8. Ejemplo de uso de caso real
 *   **Caso mal contado (confidencialidad comprometida o exceso técnico):**
     > *"Diseñamos un sistema para la empresa de transportes TransLog S.A. de Madrid. Su contable María perdía toda la tarde del viernes haciendo facturas en el ERP de SAP porque el gestor de almacén Juan no actualizaba los albaranes en la carpeta de Drive."*
-*   **Caso bien contado (anonimizado y enfocado en el aprendizaje):**
+*   **Caso bien contado A (Operaciones/Logística):**
     > *"Un cliente con una flota de distribución mediana se encontraba con que los viernes por la tarde su departamento de facturación sufría un cuello de botella. El motivo era simple: la información de los despachos se enviaba mediante mensajes de chat y hojas de cálculo y se procesaba a mano. Al centralizar los registros en una base de datos única y validar la entrada, el cierre de facturación pasó de durar toda la tarde a completarse en una hora."*
-*   **Por qué funciona:** Protege por completo la identidad de las personas y de la empresa, pero mantiene intacto el valor didáctico del aprendizaje operativo.
+*   **Caso bien contado B (Atención al Cliente / Soporte en Consultoría B2B):**
+    > *"Una organización de servicios profesionales se encontraba saturada por consultas repetitivas de clientes sobre accesos y estados de proyectos. En lugar de automatizar respuestas mediante un bot invasivo, centralizaron el historial de incidencias en una base de datos interna estructurada por FAQs de soporte. Esto permitió mejorar la consistencia de las respuestas de los técnicos y reducir los reprocesos internos de resolución de dudas, sin afirmar métricas no verificadas de ahorro."*
+*   **Por qué funciona:** Protege por completo la identidad de las personas y de la organización, describe una fricción organizativa reconocible y extrae un aprendizaje metodológico claro sin apoyarse en cifras inventadas o claims vacíos.
 
 ---
 
