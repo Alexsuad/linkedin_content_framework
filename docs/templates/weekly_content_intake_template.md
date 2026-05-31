@@ -3,13 +3,13 @@
 # Plantilla de Intake Semanal de Contenido
 
 ## Propósito
-Este documento sirve para recopilar la información, prioridades comerciales e ideas de contenido generadas en la operación diaria del cliente durante una semana específica. Asegura que el pipeline cuente con señales frescas y reales del negocio en lugar de teorizar de manera genérica.
+Este documento sirve para recopilar la información, prioridad editorial, profesional, institucional o comercial, según perfil, e ideas de contenido generadas en la actividad, experiencia, contexto o proyecto representado durante una semana específica. Asegura que el pipeline cuente con señales frescas y reales en lugar de teorizar de manera genérica.
 
 ## Cuándo se usa
 Se completa una vez por semana (típicamente al final o al inicio de la semana de trabajo).
 
 ## Quién lo completa
-El cliente o responsable de negocio, entrevistado o apoyado por el Especialista de Intake y Acompañamiento del Cliente.
+El responsable del perfil / emisor, entrevistado o apoyado por el Especialista de Intake y Acompañamiento del Perfil.
 
 ## Instrucciones de uso
 Complete las secciones según los eventos reales ocurridos en los últimos 7 días. Priorice los hechos concretos frente a las especulaciones temáticas generales.
@@ -19,20 +19,20 @@ Complete las secciones según los eventos reales ocurridos en los últimos 7 dí
 ## 1. Identificación de la Semana
 *   **Semana de trabajo:** [Ejemplo: Semana 24 del año]
 *   **Rango de fechas:** [Ejemplo: Del DD/MM/AAAA al DD/MM/AAAA]
-*   **Responsable del intake:** [Nombre del Especialista de Intake o del Cliente]
-*   **Prioridad máxima de la semana:** [¿Cuál es el foco comercial o de comunicación prioritario de estos días?]
+*   **Responsable del intake:** [Nombre del Especialista de Intake o del responsable del perfil / emisor]
+*   **Prioridad máxima de la semana:** [¿Cuál es la prioridad editorial, profesional, institucional o comercial, según perfil, de estos días?]
 
-## 2. Señales Observadas en la Operación
-Describa situaciones reales ocurridas esta semana en su negocio:
-*   **Problemas y cuellos de botella detectados:** [¿Qué falló en sus clientes o en sus propios procesos?]
-*   **Preguntas y dudas recurrentes de prospectos/clientes:** [¿Qué preguntas le hicieron en llamadas comerciales o de soporte?]
-*   **Conversaciones internas destacadas:** [¿Hubo algún debate relevante con su equipo sobre cómo mejorar un servicio?]
-*   **Aprendizajes u optimizaciones aplicadas:** [¿Qué cambios o mejoras implementó en su flujo que hayan dado resultados?]
+## 2. Señales Observadas en la Actividad o Contexto
+Describa situaciones reales ocurridas esta semana en su actividad, experiencia, contexto o proyecto representado:
+*   **Problemas y cuellos de botella detectados:** [¿Qué falló en la audiencia objetivo o en sus propios procesos, si aplica?]
+*   **Preguntas y dudas recurrentes de personas, lectores, comunidad, clientes o interesados, según perfil:** [¿Qué preguntas le hicieron en interacciones, dudas de soporte o llamadas, si aplica?]
+*   **Conversaciones internas destacadas:** [¿Hubo algún debate relevante con su equipo o colaboradores sobre cómo mejorar un servicio, proyecto o propuesta?]
+*   **Aprendizajes u optimizaciones aplicadas:** [¿Qué cambios, lecciones o mejoras implementó en su flujo o actividad que hayan dado resultados?]
 *   **Fricciones administrativas u operativas:** [Ejemplo: Retrasos por mala comunicación, duplicidad de tareas manuales].
 
-## 3. Prioridad Comercial o Estratégica
-*   **Oferta o servicio a impulsar:** [¿Qué servicio o producto queremos que la audiencia recuerde esta semana?]
-*   **Campaña o evento activo:** [¿Hay algún lanzamiento, webinar o hito de la empresa?]
+## 3. Prioridad Estratégica o Comunicativa
+*   **Propuesta, servicio u oferta a impulsar, si aplica:** [¿Qué tema, propuesta, servicio u oferta queremos que la audiencia objetivo recuerde esta semana?]
+*   **Campaña o evento activo:** [¿Hay algún lanzamiento, evento, hito u objetivo comunicativo de la organización o proyecto?]
 *   **Área de autoridad a reforzar:** [¿Queremos posicionarnos como expertos en orden operativo, en automatización, en gestión, etc.?]
 
 ## 4. Ideas de Publicaciones Candidatas
@@ -56,14 +56,14 @@ Describa las ideas de contenido basadas en las señales anteriores (idealmente t
 *   **Post 3:** [ ] TIPO 1 (Carrusel estructurado), [ ] TIPO 2 (Post de texto directo), [ ] TIPO 3 (Storytelling), [ ] Sin definir
 
 ## 6. Riesgos y Límites Específicos de la Semana
-*   **Temas sensibles temporales:** [¿Hay alguna situación del mercado o del cliente que no debamos tocar esta semana?]
+*   **Temas sensibles temporales:** [¿Hay alguna situación del mercado o del responsable del perfil / emisor que no debamos tocar esta semana?]
 *   **Datos que no se pueden publicar:** [Menciones a resultados específicos no autorizados aún].
 *   **Mensajes a evitar en la redacción:** [Enfoques de tono que no convienen aplicar esta semana].
 
 ## 7. Retroalimentación de Publicaciones Anteriores
 *   **¿Qué funcionó bien la semana pasada?:** [Publicación con más conversaciones o interacción real].
 *   **¿Qué no funcionó o generó dudas?:** [Comentarios negativos, falta de entendimiento del post].
-*   **Mensajes privados (DMs) o leads generados:** [Registro cualitativo de contactos comerciales iniciados].
+*   **Mensajes privados (DMs) o interacciones cualificadas:** [Registro cualitativo de señales de interés o contactos iniciados].
 *   **Ajustes o aprendizajes a aplicar:** [Ejemplo: Acortar las introducciones, simplificar términos técnicos].
 
 ## 8. Criterio Mínimo de Completitud
