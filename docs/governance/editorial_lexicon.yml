@@ -49,6 +49,7 @@ bloqueantes:
       - "firma y autorizacion"
       - "lote semanal de firmas"
       - "autorización de paso"
+      - "apta para la firma"
 
   analogias_intensas:
     criterio: "Evitar metáforas de choque, desastre, velocidad excesiva o accidentes que rompan el tono sobrio."
