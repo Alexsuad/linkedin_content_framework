@@ -30,6 +30,11 @@ Thumbs.db
 *.log
 *.tmp
 
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+
 # Carpeta local personal para ZIPs exportados del repositorio
 # No debe versionarse porque contiene copias temporales para revisión externa.
 C:\\Mis Documentos\\archivos_zip/
