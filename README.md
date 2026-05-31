@@ -18,7 +18,7 @@ Un sistema flexible, estructurado y auditable de producción, validación y prep
 *   **LinkedIn como Canal:** Diseñado para optimizar la comunicación en LinkedIn, priorizando la generación de interacciones cualificadas.
 *   **Independencia de Dominio:** No está limitado a un sector (como logística) ni a un perfil individual (como Alex). Admite múltiples perfiles editoriales mediante plantillas de configuración.
 *   **Perfiles Editoriales Configurables:** Soporta perfiles tipo profesional independiente B2B, empleado profesional, marca corporativa, organización, entre otros.
-*   **Estado de Fase Actual (Pre-code):** Este repositorio se encuentra actualmente en fase de definición funcional y diseño metodológico de gobernanza (**fase pre-code**). **No contiene código de aplicación, scripts ejecutables ni automatizaciones de publicación**.
+*   **Estado de Fase Actual (Pre-code):** Este repositorio se encuentra actualmente en fase de definición funcional y diseño metodológico de gobernanza (**fase pre-code**). **No contiene código de aplicación de producción ni automatizaciones de publicación desatendida. Sí incluye scripts deterministas de auditoría y validación documental en tools/.**
 
 ---
 
@@ -37,6 +37,6 @@ Un sistema flexible, estructurado y auditable de producción, validación y prep
 
 ## Cómo Empezar
 
-1.  Leer el documento de [Identity Contract](file:///home/nalex/Proyectos/linkedin_content_framework/docs/core/identity_contract.md) para comprender los límites conceptuales del sistema.
-2.  Consultar la [Visión](file:///home/nalex/Proyectos/linkedin_content_framework/docs/core/vision.md) y los [Principios](file:///home/nalex/Proyectos/linkedin_content_framework/docs/core/principles.md) del framework.
-3.  Revisar las reglas de colaboración en [AGENTS.md](file:///home/nalex/Proyectos/linkedin_content_framework/AGENTS.md).
+1.  Leer el documento de [Identity Contract](docs/core/identity_contract.md) para comprender los límites conceptuales del sistema.
+2.  Consultar la [Visión](docs/core/vision.md) y los [Principios](docs/core/principles.md) del framework.
+3.  Revisar las reglas de colaboración en [AGENTS.md](AGENTS.md).

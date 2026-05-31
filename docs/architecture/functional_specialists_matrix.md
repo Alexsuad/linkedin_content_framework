@@ -7,7 +7,7 @@ Definir de manera formal las responsabilidades funcionales que deben existir en 
 
 El framework persigue un diseño eficiente:
 1.  **Evitar la fragmentación:** No crear un agente o skill de código por cada tarea.
-2.  **Visibilidad operativa:** Garantizar que los controles de calidad, mitidades de riesgo de claims, marcas y aprobación final tengan una sede funcional asignada.
+2.  **Visibilidad operativa:** Garantizar que los controles de calidad, mitigaciones de riesgo de claims, marcas y aprobación final tengan una sede funcional asignada.
 
 ---
 
@@ -28,14 +28,14 @@ Cada responsabilidad mapeada debe ubicarse de manera preliminar en uno de los si
 
 | Nº | Responsabilidad funcional | Qué protege o aporta | Entrada principal | Salida esperada | Ubicación preliminar | Fase recomendada | Riesgo si se omite |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | Especialista de Intake y Acompañamiento del Cliente | Calidad de las señales iniciales y recopilación estratégica de datos de marca. | Entrevistas o notas crudas del cliente. | Fichas de señales y planes semanales completos. | Rol manual (con apoyo de plantillas) | Fase 1 | Contenido genérico o inventado por falta de datos verídicos de origen. |
-| 2 | Estratega de contenido / posicionamiento | Alineación del contenido con los objetivos de negocio a largo plazo. | Cuestionario de posicionamiento del cliente. | Pilares de contenido y narrativas definidos. | Configuración / Documento base | Fase 1 | Publicaciones inconexas que no construyen autoridad de marca. |
-| 3 | Especialista en audiencia / cliente objetivo | Adecuación del nivel de lenguaje y temas de interés al buyer persona. | Ficha de perfil de audiencia del cliente. | Filtro de validación de audiencia. | Regla / Configuración del perfil | Fase 1 | Post que resultan demasiado técnicos o irrelevantes para el decisor de compra. |
+| 1 | Especialista de Intake y Acompañamiento del Perfil | Calidad de las señales iniciales y recopilación estratégica de datos de marca. | Entrevistas o notas crudas del emisor o responsable del perfil. | Fichas de señales y planes semanales completos. | Rol manual (con apoyo de plantillas) | Fase 1 | Contenido genérico o inventado por falta de datos verídicos de origen. |
+| 2 | Estratega de contenido / posicionamiento | Alineación del contenido con los objetivos editoriales, profesionales, institucionales o comerciales, según perfil, a largo plazo. | Cuestionario de posicionamiento del perfil. | Pilares de contenido y narrativas definidos. | Configuración / Documento base | Fase 1 | Publicaciones inconexas que no construyen autoridad de marca. |
+| 3 | Especialista en audiencia objetivo | Adecuación del nivel de lenguaje y temas de interés a la audiencia objetivo definida. | Ficha de audiencia del perfil. | Filtro de validación de audiencia. | Regla / Configuración del perfil | Fase 1 | Post que resultan demasiado técnicos o irrelevantes para el decisor, comunidad o audiencia final, según perfil. |
 | 4 | Curador de materia prima / investigador | Filtrado y ordenación de las ideas del intake para seleccionar insumos útiles. | Notas operativas crudas de la semana. | Ideas de posts seleccionadas y calificadas. | Rol manual / Workflow semanal | Fase 1 | Sobrecarga de borrradores basados en ideas débiles o repetidas. |
 | 5 | Redactor LinkedIn | Estructuración y redacción inicial de la publicación candidata. | Ficha de señal de entrada aprobada. | Borrador estructurado de post o carrusel. | Posible agente futuro / Responsabilidad funcional | Fase 2 | Bloqueo operativo por incapacidad para generar textos consistentes. |
 | 6 | Especialista de hooks | Captar la atención en el feed en los primeros tres segundos de visualización. | Copy del cuerpo del post. | Alternativas de hooks de alto impacto. | Skill de formateo / Modificador | Fase 2 | Bajas tasas de lectura del contenido por aperturas aburridas. |
 | 7 | Editor de claridad y voz | Fluidez, sencillez de lectura y adecuación al estilo verbal del perfil. | Borrador crudo de la publicación. | Post con oraciones optimizadas para móviles. | Posible agente futuro / Responsabilidad funcional | Fase 2 | Textos difíciles de leer o que suenan de forma robótica y artificial. |
-| 8 | Especialista en voz, tono y narrativa | Coherencia del arquetipo verbal del cliente en todo el lote de contenido. | Manual de estilo de voz del cliente. | Reporte de cumplimiento del arquetipo de voz. | Regla / Validador semántico | Fase 1 (Diseño) | Pérdida de la identidad verbal o mezcla de estilos contradictorios. |
+| 8 | Especialista en voz, tono y narrativa | Coherencia del arquetipo verbal del perfil en todo el lote de contenido. | Manual de estilo de voz del perfil. | Reporte de cumplimiento del arquetipo de voz. | Regla / Validador semántico | Fase 1 (Diseño) | Pérdida de la identidad verbal o mezcla de estilos contradictorios. |
 | 9 | Especialista en marca / posicionamiento | Evitar que el post se desvíe de los temas estratégicos de la cuenta. | Directrices de posicionamiento del perfil. | Validación de pilares temáticos del post. | Regla de exclusión / Configuración | Fase 1 | Dilución del nicho de mercado del autor por hablar de temas ajenos. |
 | 10 | Diseñador visual / diseñador gráfico | Soporte visual que facilite la asimilación del contenido técnico. | Copy final de la publicación. | Propuesta de diseño gráfico o esquema. | Fase futura / Proceso manual | Fase 7 | Publicaciones áridas de texto plano sobre conceptos de alta complejidad. |
 | 11 | Diseñador de carruseles | Estructura y flujo narrativo slide por slide de documentos PDF. | Post de estructura secuencial. | Guion visual y de textos de cada slide. | Posible agente futuro / responsabilidad funcional (modo carrusel) | Fase 2 | Carruseles con exceso de texto o sin un flujo explicativo coherente. |
@@ -51,21 +51,21 @@ Cada responsabilidad mapeada debe ubicarse de manera preliminar en uno de los si
 
 ## 3. Reglas específicas por responsabilidad
 
-### 3.1 Especialista de Intake y Acompañamiento del Cliente
-*   **Función:** Guía al cliente durante la recogida de información estratégica y semanal, detecta respuestas incompletas o ambiguas, y estructura las notas crudas en fichas de señales consistentes.
+### 3.1 Especialista de Intake y Acompañamiento del Perfil
+*   **Función:** Guía al emisor o responsable del perfil durante la recogida de información estratégica y semanal, detecta respuestas incompletas o ambiguas, y estructura las notas crudas en fichas de señales consistentes.
 *   **Qué NO hace:** No genera borradores de post ni aprueba publicaciones finales de cara al canal de LinkedIn.
 *   **Representación arquitectónica:** Rol funcional obligatorio de entrada, operado de forma manual apoyándose en plantillas estructuradas.
 *   **Documentos relacionados:** `client_intake_template.md`, `weekly_content_intake_template.md`, `input_signal_template.md`, `brief_sufficiency_gate.md`.
 
 ### 3.2 Estratega de contenido / posicionamiento
-*   **Función:** Define los pilares y narrativas transversales de la marca para asegurar que el contenido construya autoridad y relevancia comercial.
+*   **Función:** Define los pilares y narrativas transversales de la marca para asegurar que el contenido construya autoridad y relevancia (profesional, corporativa o comercial, según perfil).
 *   **Qué NO hace:** No redacta el copy de las publicaciones individuales ni diseña soportes gráficos.
 *   **Representación arquitectónica:** Documento de configuración estratégica estable cargado en el contexto de generación.
 *   **Documentos relacionados:** `client_intake_template.md`, `voice_and_narrative_template.md`.
 
-### 3.3 Especialista en audiencia / cliente objetivo
-*   **Función:** Valida que los problemas tratados en el post respondan a las preocupaciones y al lenguaje técnico que maneja el buyer persona definido.
-*   **Qué NO hace:** No define la oferta comercial ni gestiona las interacciones o comentarios en el canal.
+### 3.3 Especialista en audiencia objetivo
+*   **Función:** Valida que los problemas tratados en el post respondan a las preocupaciones y al lenguaje técnico que maneja la audiencia objetivo definida.
+*   **Qué NO hace:** No define la oferta comercial o propuesta de valor ni gestiona las interacciones o comentarios en el canal.
 *   **Representación arquitectónica:** Filtros de contexto en el agente redactor y checks lógicos en la auditoría editorial.
 *   **Documentos relacionados:** `client_intake_template.md`, `editorial_audit_gate.md`.
 
@@ -94,7 +94,7 @@ Cada responsabilidad mapeada debe ubicarse de manera preliminar en uno de los si
 *   **Documentos relacionados:** `post_output_contract.md`, `voice_and_style.md`, `visual_rules.md`.
 
 ### 3.8 Especialista en voz, tono y narrativa
-*   **Función:** Verifica la coherencia verbal de la pieza frente al arquetipo verbal del cliente y detecta desvíos de identidad.
+*   **Función:** Verifica la coherencia verbal de la pieza frente al arquetipo verbal del perfil y detecta desvíos de identidad.
 *   **Qué NO hace:** No genera el contenido inicial ni decide los formatos gráficos a utilizar.
 *   **Representación arquitectónica:** Regla lógica de exclusión de buzzwords y arquetipos prohibidos cargada en el validador.
 *   **Documentos relacionados:** `voice_and_narrative_template.md`, `voice_and_style.md`, `editorial_audit_gate.md`.
@@ -125,11 +125,11 @@ Cada responsabilidad mapeada debe ubicarse de manera preliminar en uno de los si
 
 ### 3.13 Auditor editorial / calidad de contenido
 *   **Función:** Califica el borrador final generado bajo el contrato de salida y le asigna un estado operativo (ej. `READY_TO_APPROVE`, `NEEDS_MINOR_EDIT`).
-*   **Qué NO hace:** No edita de forma directa el texto ni interactúa comercialmente con la audiencia del cliente.
+*   **Qué NO hace:** No edita de forma directa el texto ni interactúa con la audiencia del perfil.
 *   **Representación arquitectónica:** Gate lógico de paso con reglas de comprobación de calidad.
 *   **Documentos relacionados:** `editorial_audit_gate.md`, `post_output_contract.md`.
 
-### 14. Auditor de riesgo / reputación / claims
+### 3.14 Auditor de riesgo / reputación / claims
 *   **Función:** Aplica la política de riesgos para detectar claims falsificados, datos confidenciales expuestos o tono de gurú que atente contra la marca.
 *   **Qué NO hace:** No reescribe de forma autónoma el cuerpo completo de la publicación ni diseña diagramas.
 *   **Representación arquitectónica:** Gate lógico y semántico de riesgos basado en la política de claims.

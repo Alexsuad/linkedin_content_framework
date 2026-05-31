@@ -34,7 +34,7 @@ Este proyecto es:
 ### C. No es un Publicador Autónomo (Revisión Humana Obligatoria)
 *   Este framework **no publica de forma autónoma en LinkedIn**.
 *   No interactúa directamente con APIs de publicación de forma desatendida.
-*   Cada pieza de contenido debe pasar obligatoriamente por un **gate de validación humana** (el Aprobador) antes de salir.
+*   Cada pieza o lote de contenido debe someterse al flujo de validación humana correspondiente según el nivel de autonomía aprobado y la fase de calibración del perfil, manteniendo siempre gates, trazabilidad y responsabilidad humana definida antes de su salida al canal.
 
 ---
 

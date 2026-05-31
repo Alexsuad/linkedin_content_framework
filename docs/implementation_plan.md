@@ -71,7 +71,7 @@ La **Fase 0** (Base del repositorio) se declara formalmente **cerrada** con el s
 *   `docs/governance/editorial_audit_gate.md`: Lista de comprobaciones de calidad editorial, publicabilidad y alineación de marca antes del envío.
 *   `docs/governance/claims_and_risk_policy.md`: Directrices y filtros para mitigar riesgos legales, claims exagerados o datos confidenciales.
 
-#### Perfil Inicial Autónomo B2B (Caso de uso en el core):
+#### Perfil inicial de referencia: Autónomo B2B (caso de uso de validación):
 *   `docs/use_cases/linkedin_autonomo_b2b/profile_config.md`: Propiedades de canal y configuraciones de frecuencia.
 *   `docs/use_cases/linkedin_autonomo_b2b/voice_and_style.md`: Estilo editorial específico del perfil autónomo.
 *   `docs/use_cases/linkedin_autonomo_b2b/visual_rules.md`: Reglas visuales (saltos de línea, uso de negritas, emojis).
@@ -266,14 +266,14 @@ graph TD
 
 | ID | Fase | Objetivo | Entregable | Dependencia | Criterio de Cierre | Estado |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **T-001** | Fase 0 | Consolidar la planificación del framework. | `docs/implementation_plan.md` | Ninguna | Documento creado con las 15 secciones y aprobado por el usuario. | **En Progreso** |
-| **T-002** | Fase 1 | Diseñar los formatos estructurados de entrada de datos. | `docs/templates/client_intake_template.md`, `voice_and_narrative_template.md`, `weekly_content_intake_template.md`, `input_signal_template.md` | T-001 | Los 4 templates de intake creados en la carpeta de plantillas. | Pendiente |
-| **T-003** | Fase 1 | Definir la estructura técnica del entregable de redacción. | `docs/templates/post_output_contract.md` | T-002 | Contrato técnico del post redactado y estructurado. | Pendiente |
-| **T-004** | Fase 1 | Establecer los gates de validación de calidad y claims. | `docs/governance/brief_sufficiency_gate.md`, `editorial_audit_gate.md`, `claims_and_risk_policy.md` | T-003 | Las 3 guías de gobernanza y listas de control redactadas. | Pendiente |
-| **T-005** | Fase 1 | Definir el perfil editorial autónomo B2B de referencia. | `docs/use_cases/linkedin_autonomo_b2b/profile_config.md`, `voice_and_style.md` | T-004 | Configuración de canal y tono de voz del perfil autónomo listos. | Pendiente |
-| **T-006** | Fase 1 | Definir reglas de legibilidad y formato de visualización. | `docs/use_cases/linkedin_autonomo_b2b/visual_rules.md` | T-005 | Formateo de copies y reglas de visualización definidas. | Pendiente |
-| **T-007** | Fase 1 | Crear biblioteca de referencia con publicaciones de ejemplo. | `docs/use_cases/linkedin_autonomo_b2b/examples_good_bad.md` | T-006 | Al menos 3 ejemplos de posts catalogados con explicaciones. | Pendiente |
-| **T-008** | Fase 1 | Mapear la matriz de roles y responsabilidades funcionales. | `docs/architecture/functional_specialists_matrix.md` | T-001 | Matriz funcional creada y rol del especialista en intake delimitado. | Pendiente |
+| **T-001** | Fase 0 | Consolidar la planificación del framework. | `docs/implementation_plan.md` | Ninguna | Documento creado con las 15 secciones y aprobado por el usuario. | **Completada** |
+| **T-002** | Fase 1 | Diseñar los formatos estructurados de entrada de datos. | `docs/templates/client_intake_template.md`, `voice_and_narrative_template.md`, `weekly_content_intake_template.md`, `input_signal_template.md` | T-001 | Los 4 templates de intake creados en la carpeta de plantillas. | **Completada** (Generalizada en `085dbac`) |
+| **T-003** | Fase 1 | Definir la estructura técnica del entregable de redacción. | `docs/templates/post_output_contract.md` | T-002 | Contrato técnico del post redactado y estructurado. | **Completada según paquete documental existente** |
+| **T-004** | Fase 1 | Establecer los gates de validación de calidad y claims. | `docs/governance/brief_sufficiency_gate.md`, `editorial_audit_gate.md`, `claims_and_risk_policy.md` | T-003 | Las 3 guías de gobernanza y listas de control redactadas. | **Completada** (Generalizada en `8d43341`) |
+| **T-005** | Fase 1 | Definir el perfil editorial autónomo B2B de referencia. | `docs/use_cases/linkedin_autonomo_b2b/profile_config.md`, `voice_and_style.md` | T-004 | Configuración de canal y tono de voz del perfil autónomo listos. | **Completada según paquete documental existente** |
+| **T-006** | Fase 1 | Definir reglas de legibilidad y formato de visualización. | `docs/use_cases/linkedin_autonomo_b2b/visual_rules.md` | T-005 | Formateo de copies y reglas de visualización definidas. | **Completada según paquete documental existente** |
+| **T-007** | Fase 1 | Crear biblioteca de referencia con publicaciones de ejemplo. | `docs/use_cases/linkedin_autonomo_b2b/examples_good_bad.md` | T-006 | Al menos 3 ejemplos de posts catalogados con explicaciones. | **Completada según paquete documental existente** |
+| **T-008** | Fase 1 | Mapear la matriz de roles y responsabilidades funcionales. | `docs/architecture/functional_specialists_matrix.md` | T-001 | Matriz funcional creada y rol del especialista en intake delimitado. | **En cierre 7B.3, pendiente de commit** |
 | **T-009** | Fase 4 | Automatizar la verificación formal de la Fase 1. | `tools/audit_precode_repo.py` actualizado | T-007, T-008 | El script de auditoría verifica la presencia de los entregables de Fase 1. | Pendiente |
 | **T-010** | Fase 5 | Simular manualmente la producción de una pieza directa. | Trazas en `output/trace/` del Dry Run Tipo 2 | T-009 | Post de texto simple producido, auditado y aprobado manualmente. | Pendiente |
 | **T-011** | Fase 5 | Simular manualmente la producción de un carrusel estructurado. | Trazas en `output/trace/` del Dry Run Tipo 1 | T-010 | Esquema y guion de carrusel producido y validado manualmente. | Pendiente |

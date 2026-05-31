@@ -80,7 +80,7 @@ Las auditorías que realicen los especialistas agénticos del framework sobre la
 1. **Suficiencia de brief:** Verificar que el insumo crudo (señal de entrada) cuente con los datos necesarios de problema, fricción, solución e impacto antes de iniciar la redacción.
 2. **Calidad editorial:** Comprobar la coherencia narrativa y que el texto no resulte genérico o impersonal.
 3. **Voz y tono:** Garantizar la alineación exacta con el arquetipo de voz configurado para el perfil editorial.
-4. **Audiencia:** Asegurar que el mensaje y el nivel técnico del post están dirigidos adecuadamente al buyer persona objetivo.
+4. **Audiencia:** Asegurar que el mensaje y el nivel técnico del post están dirigidos adecuadamente a la audiencia objetivo definida.
 5. **Claims y reputación:** Validar que los datos, porcentajes o promesas de valor estén debidamente justificados y no impliquen riesgos legales o de marca.
 6. **Formato LinkedIn:** Revisar la estructura de párrafos cortos, uso de espacios, hooks iniciales y llamadas a la acción típicas del canal.
 7. **Riesgo visual:** Evaluar la disposición visual del post (longitud, saltos de línea, uso moderado de emojis y negritas) o la legibilidad de los slides si es un carrusel.
@@ -135,12 +135,12 @@ Para solicitar un trabajo a Antigravity, el usuario o el script orquestador debe
 - **Fase:** [Fase de docs/implementation_plan.md, ej. Fase 1]
 - **Bloque:** [Bloque de trabajo, ej. Bloque 3]
 - **Archivos a leer:**
-  - [Ruta 1](file:///absolute/path/to/file1)
-  - [Ruta 2](file:///absolute/path/to/file2)
+  - [Identity Contract](docs/core/identity_contract.md)
+  - [Input Signal Template](docs/templates/input_signal_template.md)
 - **Archivos autorizados:**
-  - [Ruta 3](file:///absolute/path/to/file3)
+  - [Ruta 3](docs/governance/file3.md)
 - **Archivos prohibidos:**
-  - [Ruta 4](file:///absolute/path/to/file4)
+  - [Ruta 4](docs/core/principles.md)
 - **Restricciones:** [Indicar reglas de no avance, palabras prohibidas, etc.]
 - **Salida esperada:** [Formato y contenido del entregable]
 - **Verificación:** [Comando de auditoría o validación]
