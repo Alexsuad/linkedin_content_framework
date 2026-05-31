@@ -9,7 +9,7 @@ Definir la configuración base y las directrices operativas aplicables al perfil
 
 ## 1. Descripción del perfil
 Este perfil representa un arquetipo de comunicación con las siguientes características:
--   **Rol principal:** Profesional independiente, consultor sénior o fundador de un proyecto de servicios B2B.
+-   **Rol principal:** Profesional independiente, autónomo B2B o fundador de un proyecto de servicios especializados.
 -   **Enfoque estratégico:** Especialista enfocado en la construcción de sistemas de control, orden y procesos internos de negocio.
 -   **Propuesta de valor personal:** Persona experta que posee un profundo conocimiento operativo y de campo ("a pie de obra"), que huye de explicaciones puramente teóricas o de oficina.
 -   **Necesidad de comunicación:** Construir confianza y credibilidad técnica a través de su perfil personal de LinkedIn para posicionar servicios de alto valor.

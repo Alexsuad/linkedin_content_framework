@@ -68,7 +68,7 @@ La **Fase 0** (Base del repositorio) se declara formalmente **cerrada** con el s
 
 #### Gobernanza y Gates:
 *   `docs/governance/brief_sufficiency_gate.md`: Lista de comprobaciones objetivas para evaluar si un brief tiene suficiente información para ser redactado.
-*   `docs/governance/editorial_audit_gate.md`: Lista de comprobaciones de calidad literaria y alineación de marca antes del envío.
+*   `docs/governance/editorial_audit_gate.md`: Lista de comprobaciones de calidad editorial, publicabilidad y alineación de marca antes del envío.
 *   `docs/governance/claims_and_risk_policy.md`: Directrices y filtros para mitigar riesgos legales, claims exagerados o datos confidenciales.
 
 #### Perfil Inicial Autónomo B2B (Caso de uso en el core):

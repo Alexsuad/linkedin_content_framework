@@ -36,7 +36,7 @@ Describa situaciones reales ocurridas esta semana en su negocio:
 *   **Área de autoridad a reforzar:** [¿Queremos posicionarnos como expertos en orden operativo, en automatización, en gestión, etc.?]
 
 ## 4. Ideas de Publicaciones Candidatas
-Describa al menos tres ideas de contenido basadas en las señales anteriores:
+Describa las ideas de contenido basadas en las señales anteriores (idealmente tres señales reales para sostener la frecuencia semanal; si solo existen una o dos señales fuertes, no se deben inventar señales adicionales):
 *   **Idea de Post 1:**
     *   *Concepto básico:* [¿De qué hablará?]
     *   *Señal origen:* [¿Qué fricción o caso real de la Sección 2 la inspira?]
@@ -69,9 +69,9 @@ Describa al menos tres ideas de contenido basadas en las señales anteriores:
 ## 8. Criterio Mínimo de Completitud
 Este documento se considerará completo y listo para alimentar el pipeline si:
 1.  Contiene el rango de fechas y la prioridad de la semana.
-2.  Registra al menos tres fricciones o aprendizajes reales en la Sección 2.
-3.  Presenta al menos tres ideas candidatas mapeadas directamente a una señal de origen.
-4.  Si no se cumplen los puntos anteriores, el Especialista de Intake debe detener la producción semanal de contenido para evitar la generación de borradores genéricos o débiles.
+2.  Registrar idealmente tres señales reales para sostener la frecuencia semanal. Si solo existen una o dos señales fuertes, no se deben inventar señales adicionales. Se podrá reutilizar banco de ideas aprobado, reprogramar contenido o reducir la producción de esa semana con justificación editorial.
+3.  Presenta las ideas candidatas mapeadas directamente a una señal de origen (o referencia del banco de ideas).
+4.  Si no se cuenta con al menos una señal fuerte de origen o idea del banco aprobada, el Especialista de Intake debe detener la producción semanal de contenido para evitar la generación de borradores genéricos o débiles.
 
 ## Relación con otros documentos
 *   Se basa en las directrices del [client_intake_template.md](file:///home/nalex/Proyectos/linkedin_content_framework/docs/templates/client_intake_template.md).
