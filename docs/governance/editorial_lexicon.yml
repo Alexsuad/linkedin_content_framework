@@ -1,0 +1,69 @@
+# File: docs/governance/editorial_lexicon.yml
+# ----------------------------------------------------------------------
+# Propósito: Diccionario de términos controlados para auditoría editorial.
+# Tipo: Fuente de verdad estructurada para herramientas deterministas.
+# ----------------------------------------------------------------------
+
+# Reglas semánticas para evitar la colonización o distorsión del tono y marco
+
+restringidos:
+  consultoría:
+    criterio: "No usar como identidad base del framework ni del perfil linkedin_autonomo_b2b. Priorizar: aprendizaje operativo aplicado, observación interna, gestión de procesos internos."
+    permitido_si: "Se menciona en ejemplos negativos o contextos de consultoría tradicional a evitar."
+    patrones:
+      - "consultoria"
+      - "consultoría"
+      - "consultor"
+
+  make:
+    criterio: "No mencionar herramientas concretas salvo que el caso de uso lo declare explícitamente. Priorizar: diseñar automatizaciones, conectar herramientas."
+    permitido_si: "Se declara en la señal/brief como caso práctico o se describe en la sección de ejemplos específicos."
+    patrones:
+      - "make.com"
+      - "flujos en make"
+      - "\\bmake\\b"
+
+  zapier:
+    criterio: "No mencionar herramientas concretas de forma genérica. Priorizar: diseñar automatizaciones, conectar herramientas."
+    permitido_si: "Mismo criterio de Make."
+    patrones:
+      - "zapier"
+
+  logistica:
+    criterio: "Evitar analogías y ejemplos logísticos en publicaciones generales si el caso no es explícitamente logístico."
+    permitido_si: "El contenido trate explícitamente sobre el sector de transportes, almacenes o cadena de suministro."
+    patrones:
+      - "logística"
+      - "logistica"
+      - "almacén"
+      - "almacen"
+      - "tracking"
+      - "número de tracking"
+      - "en almacén"
+
+bloqueantes:
+  firma_y_autorizacion:
+    criterio: "Reemplazar fórmulas de aprobación rígida por modelos de aprobación compacta o decisión de revisión de la pieza."
+    patrones:
+      - "firma y autorización"
+      - "firma y autorizacion"
+      - "lote semanal de firmas"
+      - "autorización de paso"
+
+  analogias_intensas:
+    criterio: "Evitar metáforas de choque, desastre, velocidad excesiva o accidentes que rompan el tono sobrio."
+    patrones:
+      - "motor de carreras"
+      - "chasis roto"
+      - "estrellarse"
+      - "estrellarse a mayor velocidad"
+
+  lenguaje_guru_hype:
+    criterio: "Evitar palabras sensacionales, promesas infundadas o lenguaje de gurú tecnológico/IA."
+    patrones:
+      - "revolución"
+      - "revolucionario"
+      - "secreto de la automatización"
+      - "truco definitivo"
+      - "ahorro del 100%"
+      - "garantizado"
