@@ -26,12 +26,12 @@ El desarrollo del framework se rige por los siguientes principios metodológicos
 ## 3. Estado Actual del Repositorio
 
 La **Fase 0** (Base del repositorio) se declara formalmente **cerrada** con el siguiente estado:
-*   Repositorio inicializado y limpio: `/home/nalex/Proyectos/linkedin_content_framework`.
+*   Repositorio inicializado y limpio: la raíz del repositorio actual.
 *   Estructura base de directorios creada (`docs/core/`, `docs/use_cases/`, `docs/governance/`, etc.).
 *   Archivo `.gitignore` configurado para ignorar directorios de estados temporales conservando la estructura de carpetas a través de archivos `.gitkeep`.
 *   Archivo `.gitattributes` creado para asegurar finales de línea `LF` uniformes.
 *   Herramienta de validación determinista inicial (`tools/audit_precode_repo.py`) creada, ejecutada con éxito y arrojando `EXIT 0`.
-*   Repositorio fuente `/home/nalex/Proyectos/Automatizacion_linkedin` preservado intacto.
+*   Repositorio fuente heredado de automatización LinkedIn preservado intacto.
 
 ---
 

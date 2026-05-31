@@ -66,5 +66,5 @@ Este documento se considerará completo para su uso si:
 4.  Incluye al menos un ejemplo real de post aprobado y uno prohibido como referencia.
 
 ## Relación con otros documentos
-*   Deriva de las definiciones del [client_intake_template.md](file:///home/nalex/Proyectos/linkedin_content_framework/docs/templates/client_intake_template.md).
+*   Deriva de las definiciones del [client_intake_template.md](client_intake_template.md).
 *   Alimenta y da las bases operativas para la futura guía de estilo de cada caso de uso (`voice_and_style.md`).

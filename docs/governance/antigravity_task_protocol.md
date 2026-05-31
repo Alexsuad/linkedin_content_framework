@@ -50,7 +50,7 @@ Para garantizar la estabilidad del repositorio y prevenir la degradación de la 
 - **Secuencialidad:** Trabajar únicamente un bloque del plan de implementación por vez. No se permite solapar fases o bloques.
 - **Cierre del bloque:** No avanzar al siguiente bloque sin haber validado y cerrado formalmente el actual.
 - **Modificación estricta:** No crear ni modificar archivos que no hayan sido explícitamente autorizados en el formato de la tarea.
-- **Aislamiento externo:** No tocar ni alterar el repositorio de origen `/home/nalex/Proyectos/Automatizacion_linkedin`.
+- **Aislamiento externo:** No tocar ni alterar el repositorio fuente heredado de automatización LinkedIn.
 - **Especialización agéntica:** No diseñar ni crear agentes de IA antes de que la Fase 1 (Intake y Gobernanza) esté formalmente cerrada.
 - **Dependencia lógica de skills:** No escribir ni proponer clases o funciones de skills de software sin haber mapeado previamente la matriz de responsabilidades funcionales.
 - **Orden documental:** No diseñar workflows agénticos antes de completar y validar los documentos de control y templates base.

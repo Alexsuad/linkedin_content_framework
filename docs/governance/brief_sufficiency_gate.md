@@ -24,10 +24,10 @@ El gate somete la señal de entrada a una revisión sistemática en las siguient
 
 ## 2. Entradas requeridas
 Para realizar la evaluación, el gate requiere la consolidación y cruce de datos de los siguientes documentos base:
-*   [client_intake_template.md](file:///home/nalex/Proyectos/linkedin_content_framework/docs/templates/client_intake_template.md) (Propuesta de valor, audiencia objetivo y temas prohibidos).
-*   [voice_and_narrative_template.md](file:///home/nalex/Proyectos/linkedin_content_framework/docs/templates/voice_and_narrative_template.md) (Límites en el tono y arquetipos prohibidos).
-*   [weekly_content_intake_template.md](file:///home/nalex/Proyectos/linkedin_content_framework/docs/templates/weekly_content_intake_template.md) (Planificación y prioridades de la semana de trabajo).
-*   [input_signal_template.md](file:///home/nalex/Proyectos/linkedin_content_framework/docs/templates/input_signal_template.md) (La ficha estructurada de la señal individual con la fricción e impacto).
+*   [client_intake_template.md](../templates/client_intake_template.md) (Propuesta de valor, audiencia objetivo y temas prohibidos).
+*   [voice_and_narrative_template.md](../templates/voice_and_narrative_template.md) (Límites en el tono y arquetipos prohibidos).
+*   [weekly_content_intake_template.md](../templates/weekly_content_intake_template.md) (Planificación y prioridades de la semana de trabajo).
+*   [input_signal_template.md](../templates/input_signal_template.md) (La ficha estructurada de la señal individual con la fricción e impacto).
 
 ---
 

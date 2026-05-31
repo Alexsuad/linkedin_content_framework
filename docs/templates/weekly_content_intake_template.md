@@ -74,5 +74,5 @@ Este documento se considerará completo y listo para alimentar el pipeline si:
 4.  Si no se cuenta con al menos una señal fuerte de origen o idea del banco aprobada, el Especialista de Intake debe detener la producción semanal de contenido para evitar la generación de borradores genéricos o débiles.
 
 ## Relación con otros documentos
-*   Se basa en las directrices del [client_intake_template.md](file:///home/nalex/Proyectos/linkedin_content_framework/docs/templates/client_intake_template.md).
-*   Da origen a las fichas individuales de cada post ([input_signal_template.md](file:///home/nalex/Proyectos/linkedin_content_framework/docs/templates/input_signal_template.md)).
+*   Se basa en las directrices del [client_intake_template.md](client_intake_template.md).
+*   Da origen a las fichas individuales de cada post ([input_signal_template.md](input_signal_template.md)).

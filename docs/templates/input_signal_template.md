@@ -83,5 +83,5 @@ Para que la señal pase al redactor o LLM y no sea rechazada en el `brief_suffic
 4.  La definición de la audiencia objetivo de la publicación.
 
 ## Relación con otros documentos
-*   Nace a partir de los datos recopilados en el [weekly_content_intake_template.md](file:///home/nalex/Proyectos/linkedin_content_framework/docs/templates/weekly_content_intake_template.md).
+*   Nace a partir de los datos recopilados en el [weekly_content_intake_template.md](weekly_content_intake_template.md).
 *   Sirve como insumo de entrada obligatorio para la redacción final, que se evaluará bajo el contrato de salida (`post_output_contract.md`).
