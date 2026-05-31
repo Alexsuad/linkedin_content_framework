@@ -14,7 +14,7 @@ El gate realiza comprobaciones específicas en los siguientes aspectos de la red
 -   **Hook:** Eficacia y atractivo de las primeras líneas para detener el scroll del lector en el feed.
 -   **Claridad:** Facilidad de lectura, uso de vocabulario comprensible y longitud adecuada de las oraciones.
 -   **Utilidad:** Aporte de valor práctico o de aprendizaje real para la audiencia.
--   **Alineación con la audiencia:** Adaptación del nivel técnico y de las temáticas a los intereses del buyer persona objetivo.
+-   **Alineación con la audiencia:** Adaptación del nivel técnico y de las temáticas a los intereses de la audiencia objetivo.
 -   **Voz y tono:** Cumplimiento riguroso del arquetipo verbal y consistencia de estilo sin desvíos.
 -   **Estructura:** Desarrollo coherente del flujo lógico (Problema -> Fricción -> Solución -> Impacto).
 -   **CTA (Llamada a la acción):** Claridad, naturalidad y ausencia de enfoques excesivamente comerciales.
@@ -26,12 +26,12 @@ El gate realiza comprobaciones específicas en los siguientes aspectos de la red
 
 ## 2. Criterios mínimos
 Para que una publicación sea calificada positivamente, debe cumplir de forma estricta los siguientes checks editoriales:
--   Debe nacer inequívocamente de un problema o fricción operativa real del negocio, no de abstracciones o teorías.
--   Debe comprenderse con facilidad por perfiles de negocio, evitando jerga excesivamente especializada salvo que el perfil lo exija.
+-   Debe nacer inequívocamente de una señal real y verificable (problema, experiencia, aprendizaje, caso, reflexión profesional, postura, historia de carrera, observación sectorial o necesidad comunicativa definida por el perfil editorial), no de abstracciones o teorías.
+-   Debe comprenderse con facilidad por la audiencia objetivo, evitando jerga excesivamente especializada salvo que el perfil lo exija.
 -   No debe sonar a texto corporativo genérico, impersonal o autogenerado por un LLM.
--   No debe abrir la publicación hablando de la tecnología o herramientas (ej. "nuestro script en Python..."), sino de la solución funcional o el problema de negocio.
+-   No debe abrir la publicación hablando de la tecnología o herramientas (ej. "nuestro script en Python..."), sino de la solución funcional o la fricción, señal u observación de partida.
 -   Debe reforzar de manera explícita el posicionamiento del autor (ej. el profesional con experiencia de campo).
--   Debe cerrar con una llamada a la acción coherente y alineada con la estrategia comercial del canal.
+-   Debe cerrar con una llamada a la acción coherente y alineada con el objetivo editorial del perfil.
 -   Debe tener la capacidad de generar conversación y debate en el área de comentarios de LinkedIn.
 
 ---
@@ -53,7 +53,7 @@ Tras la auditoría editorial, el borrador se catalogará en uno de los siguiente
 El sistema híbrido (agentes y scripts) ejecutará de forma secuencial las siguientes comprobaciones específicas:
 1.  **Auditoría de claridad:** Análisis de longitud de frases, legibilidad de párrafos y uso de conectores naturales.
 2.  **Auditoría de voz:** Comparación semántica del texto contra los términos preferidos y las buzzwords prohibidas de la marca.
-3.  **Auditoría de audiencia:** Comprobación de que el lenguaje está nivelado con la madurez técnica del buyer persona definido.
+3.  **Auditoría de audiencia:** Comprobación de que el lenguaje está nivelado con la madurez técnica de la audiencia objetivo definida.
 4.  **Auditoría de formato LinkedIn:** Validación visual del formateo (sin bloques densos de texto, hooks limpios de emojis y llamadas a la acción directas).
 5.  **Auditoría de potencial de conversación:** Evaluación de la CTA final para asegurar que fomenta respuestas naturales y profesionales.
 
@@ -70,7 +70,7 @@ Para optimizar el flujo operativo, se resolverán internamente y sin molestar al
 
 ## 6. Cuándo SÍ escalar al humano
 Se requiere la intervención por excepción del aprobador humano cuando:
--   Exista una duda razonable sobre si el post vulnera la identidad de marca o el posicionamiento comercial.
+-   Exista una duda razonable sobre si el post vulnera la identidad de marca o el posicionamiento editorial.
 -   Se detecte una desviación del tono de voz que afecte al fondo estratégico del mensaje y no pueda corregirse de manera automática.
 -   El contenido trate temas sensibles del mercado que puedan generar controversia en el sector.
 -   La llamada a la acción (CTA) deba ser redefinida por razones comerciales urgentes.
