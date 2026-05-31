@@ -14,7 +14,7 @@ Este documento detalla qué componentes y capacidades entran dentro de la versi�
 
 *   **Modelado Metodológico Completo:** Estructura de directorios, roles, y flujos funcionales del framework en fase pre-code.
 *   **Gobernanza de Calidad (Gates):** Procedimientos manuales de validación funcional e interfaces documentales para la aprobación humana.
-*   **Gestión de Perfiles Editoriales:** Definición teórica de perfiles configurables (autónomo B2B, empleado profesional, marca corporativa).
+*   **Gestión de Perfiles Editoriales:** Definición teórica de perfiles configurables (persona, profesional independiente, empleado experto, proyecto, marca, empresa u organización).
 *   **Caso de Uso Heredado:** Preservación del caso práctico de logística como plantilla de aprendizaje e histórico.
 *   **Trazabilidad Operativa:** Formatos de captura de inputs (`input/`) y registro de trazas de desarrollo (`output/trace/`).
 

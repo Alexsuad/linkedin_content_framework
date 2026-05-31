@@ -13,7 +13,7 @@ Este documento define la naturaleza del proyecto y establece límites de diseño
 ## 1. Declaración de Identidad
 
 Este proyecto es:
-*   **Un Framework para LinkedIn:** Diseñado específicamente para optimizar la preparación y validación de publicaciones en LinkedIn como canal principal de comunicación B2B.
+*   **Un Framework para LinkedIn:** Diseñado específicamente para optimizar la preparación y validación de publicaciones en LinkedIn como canal principal de comunicación profesional.
 *   **Un Sistema Flexible y Parametrizable:** El núcleo del framework está desacoplado de cualquier sector industrial o perfil personal.
 *   **Un Motor de Producción Controlada:** Su objetivo es garantizar la trazabilidad, orden y control de calidad de las publicaciones.
 
@@ -29,7 +29,7 @@ Este proyecto es:
 ### B. Perfil-Agnóstico (No exclusivo para Alex)
 *   El framework opera sobre perfiles editoriales variables.
 *   Las menciones a "Alex" en la gobernanza heredada se abstraen como **Aprobador Humano / Propietario del Perfil Editorial**.
-*   El sistema debe poder configurarse para profesionales independientes, autónomos B2B, empleados expertos o marcas corporativas.
+*   El sistema debe poder configurarse para profesionales independientes, empleados expertos, marcas, proyectos colectivos u organizaciones.
 
 ### C. No es un Publicador Autónomo (Revisión Humana Obligatoria)
 *   Este framework **no publica de forma autónoma en LinkedIn**.

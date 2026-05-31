@@ -15,9 +15,9 @@ Un sistema flexible, estructurado y auditable de producción, validación y prep
 `linkedin_content_framework` es una infraestructura metodológica diseñada para sistematizar la creación de contenido de alta autoridad en LinkedIn (el canal de comunicación). El framework está diseñado para separar la **mecánica operativa de redacción y validación** de los **perfiles editoriales específicos**.
 
 ### Características Principales:
-*   **LinkedIn como Canal:** Diseñado para optimizar la comunicación en LinkedIn, priorizando la generación de conversaciones B2B cualificadas.
+*   **LinkedIn como Canal:** Diseñado para optimizar la comunicación en LinkedIn, priorizando la generación de interacciones cualificadas.
 *   **Independencia de Dominio:** No está limitado a un sector (como logística) ni a un perfil individual (como Alex). Admite múltiples perfiles editoriales mediante plantillas de configuración.
-*   **Perfiles Editoriales Configurables:** Soporta perfiles tipo autónomo B2B, empleado profesional, marca corporativa, entre otros.
+*   **Perfiles Editoriales Configurables:** Soporta perfiles tipo profesional independiente B2B, empleado profesional, marca corporativa, organización, entre otros.
 *   **Estado de Fase Actual (Pre-code):** Este repositorio se encuentra actualmente en fase de definición funcional y diseño metodológico de gobernanza (**fase pre-code**). **No contiene código de aplicación, scripts ejecutables ni automatizaciones de publicación**.
 
 ---

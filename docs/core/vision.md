@@ -6,7 +6,7 @@
 
 # Declaración de Visión
 
-**Profesionales independientes B2B, equipos internos y marcas corporativas** que necesitan construir autoridad real y generar diálogos comerciales cualificados en LinkedIn, necesitan **un framework flexible de producción, auditoría y preparación de contenido** porque **la ideación manual y la improvisación diaria suelen derivar en publicaciones inconsistentes, de bajo valor para la audiencia, difíciles de auditar y carentes de un control de calidad riguroso antes de su salida pública.**
+**Personas, profesionales, empleados expertos, proyectos, marcas y organizaciones** que necesitan construir presencia profesional, autoridad e interacciones cualificadas en LinkedIn, necesitan **un framework flexible de producción, auditoría y preparación de contenido** porque **la ideación manual y la improvisación diaria suelen derivar en publicaciones inconsistentes, de bajo valor para la audiencia, difíciles de auditar y carentes de un control de calidad riguroso antes de su salida pública.**
 
 ---
 
