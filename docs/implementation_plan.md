@@ -2,7 +2,7 @@
 
 ## 1. Propósito del Plan
 
-Este documento organiza el desarrollo del framework de contenido para LinkedIn por fases, metas, entregables, criterios de cierre y riesgos. El plan prioriza la definición de la **capa editorial-operativa, el intake del cliente, la validación humana obligatoria (gates), la trazabilidad documental y los criterios de aceptación** antes de saltar directamente al diseño de agentes de IA, skills de código o flujos automatizados de publicación.
+Este documento organiza el desarrollo del framework de contenido para LinkedIn por fases, metas, entregables, criterios de cierre y riesgos. El plan prioriza la definición de la **capa editorial-operativa, el intake del cliente, los esquemas de validación adaptativa (gates), la trazabilidad documental y los criterios de aceptación** antes de saltar directamente al diseño de agentes de IA, skills de código o flujos automatizados de publicación.
 
 El framework opera bajo la premisa de que una automatización sólida solo es posible si existe un proceso manual bien definido, estable y auditable.
 
@@ -15,8 +15,8 @@ El desarrollo del framework se rige por los siguientes principios metodológicos
 *   **Hibridación del Control:** La Inteligencia Artificial propone y redacta el contenido, herramientas deterministas escritas en Python verifican el cumplimiento de reglas formales del repositorio, el aprobador humano valida la calidad y da la luz verde, y Git registra la traza final del proceso.
 *   **Validación Manual Previa:** Ningún flujo o regla se automatizará en código sin haber sido ejecutado y validado de forma manual mediante simulaciones ("dry runs").
 *   **Minimalismo Agéntico:** No se crearán agentes de IA si una skill, regla estricta de validación, gate o workflow documental puede resolver la responsabilidad de forma más sencilla y determinista.
-*   **No Flight sin Humano:** Queda terminantemente prohibida la publicación desatendida o autónoma en canales externos. Toda salida requiere la confirmación explícita del aprobador humano.
-*   **Higiene Conceptual del Núcleo:** El núcleo del framework (`docs/core/`) debe mantenerse limpio y libre de referencias a industrias específicas (como logística) o perfiles personales (como Alex). Dichos detalles corresponden exclusivamente a la capa de perfiles editoriales y casos de uso.
+*   **Aprobación Humana Adaptativa:** El framework regula la salida al canal según niveles de autonomía progresiva. Aunque durante la fase de calibración inicial la validación humana manual de cada pieza es obligatoria, en fases maduras el sistema admite configuraciones de aprobación compacta por lotes o revisión por excepción.
+*   **Higiene Conceptual del Núcleo:** Se prohíbe usar logística, Alex, transporte o cualquier caso heredado como identidad, audiencia, aprobador, frecuencia o regla universal del framework en el núcleo (`docs/core/`). Sin embargo, se permiten menciones normativas cuando expliquen que pertenecen a casos heredados, ejemplos o referencias históricas que no deben contaminar el núcleo general.
 *   **Configurabilidad de Canal y Perfil:** LinkedIn es el canal de destino del framework, pero el sistema debe permitir configurar perfiles (autónomo B2B, empleado profesional, marca corporativa) y temáticas de forma modular mediante configuraciones aisladas.
 *   **Enfoque en Problemas Reales:** El contenido debe nutrirse de señales reales del negocio (fricciones cotidianas, dudas comerciales, aprendizajes operativos), prohibiendo la invención de casos o la generación genérica basada puramente en abstracciones de un LLM.
 *   **Publicabilidad sobre Buena Redacción:** El sistema no debe evaluar si un post está "bien escrito" en términos literarios, sino si cumple con los criterios de "publicabilidad" (alineación con la marca, mitigación de riesgos de reputación, aportación de valor real para la audiencia y llamadas a la acción comerciales adecuadas).
@@ -107,7 +107,7 @@ La **Fase 0** (Base del repositorio) se declara formalmente **cerrada** con el s
     12. ¿Qué criterios de riesgo (claims, legalidad, reputación) pueden bloquear un post?
     13. ¿Qué hacer ante un brief que no cumple con el nivel mínimo de información?
     14. ¿Cómo se gestionan las correcciones y la devolución de publicaciones rechazadas?
-    15. ¿Qué parte del proceso requiere la firma y aprobación humana directa?
+    15. ¿Qué parte del proceso requiere firma humana según el nivel de autonomía y fase de calibración definidos?
     16. ¿Qué formato es el adecuado para cada publicación según su objetivo?
     17. ¿Por qué una publicación es considerada "publicable" y no simplemente "bien escrita"?
     18. ¿Cómo se organizan los diferentes roles dentro de la matriz de especialistas funcionales?
@@ -148,7 +148,7 @@ La **Fase 0** (Base del repositorio) se declara formalmente **cerrada** con el s
 6.  **Redacción de Carrusel (Tipo 1):** Flujo de diseño conceptual de guiones visuales.
 7.  **Revisión y Auditoría Editorial:** Control de calidad de la redacción.
 8.  **Control de Claims y Riesgos:** Revisión de veracidad, reputación y cumplimiento legal.
-9.  **Aprobación Humana ("No Flight"):** Gate definitivo para la firma y programación final.
+9.  **Aprobación Humana Adaptativa:** Gate regulado por niveles de autonomía (aprobación directa en fase de calibración o compacta por lotes en fase madura).
 10. **Devolución, Corrección y Ajuste:** Flujo de retroalimentación en caso de rechazo del post.
 11. **Registro de Aprendizaje y Cierre:** Análisis post-publicación para la optimización de los prompts del sistema.
 
@@ -248,10 +248,10 @@ graph TD
     *   *Mitigación:* Controlar mediante el arquetipo de voz configurado en la Fase 1 y la verificación de calidad en el gate editorial.
 *   **Ausencia de Datos de Soporte (Claims):** Emitir publicaciones que realicen declaraciones o promesas que la empresa o el perfil no puedan respaldar.
     *   *Mitigación:* Filtrar mediante la aplicación de la `claims_and_risk_policy.md`.
-*   **Contaminación Conceptual del Core:** Acoplar el núcleo metodológico a problemas logísticos o datos de Alex.
-    *   *Mitigación:* Validar de forma automatizada mediante palabras prohibidas en el script de auditoría.
-*   **Bypasear la Aprobación Humana:** Automatizar la publicación sin el consentimiento explícito y la firma final del responsable.
-    *   *Mitigación:* Diseñar un gate técnico infranqueable de aprobación en el CLI y en el repositorio local.
+*   **Contaminación Conceptual del Core:** Acoplar el núcleo metodológico general a problemas logísticos o datos del aprobador heredado como reglas fijas.
+    *   *Mitigación:* Validar de forma automatizada que las menciones en el núcleo general se limiten estrictamente a referencias normativas o ejemplos históricos autorizados.
+*   **Bypasear los Gates de Control:** Automatizar la publicación sin respetar el nivel de autonomía asignado o evadir la calibración requerida.
+    *   *Mitigación:* Diseñar gates técnicos en el CLI y el repositorio adaptados al esquema de aprobación seleccionado.
 
 ---
 

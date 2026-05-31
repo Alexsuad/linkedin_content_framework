@@ -34,14 +34,14 @@ Elementos estructurales y de proceso que aplican a cualquier perfil editorial en
 *   **Lógica de Formatos:** Formato Tipo 1 (carrusel visual estructurado), Tipo 2 (post de texto simple directo) y Tipo 3 (storytelling basado en escenas).
 *   **Estados de una Publicación:** El ciclo de vida de los estados (*Tema Detectado*, *Borrador*, *En Validación Funcional*, *En Aprobación Humana*, *Aprobado*, *Publicado*, *Cerrado*).
 *   **Métricas de Negocio vs. Vanidad:** Enfoque prioritario en generar conversaciones cualificadas directas (DMs o llamadas) frente a impresiones y likes vacíos.
-*   **Concepto de Validación Humana Obligatoria:** "No Flight" sin aprobación explícita.
+*   **Concepto de Validación Humana Obligatoria:** "No Flight" (No publicar sin gates, trazabilidad y aprobación según el nivel de autonomía definido).
 
 ### Grupo B: Caso de Uso Específico (Heredado / Variable)
 Contenido acoplado al caso original que **no debe migrarse al núcleo general**:
-*   **Identidad y Aprobador:** Alex como único aprobador estratégico e identidad central del canal principal. (Debe parametrizarse como "Responsable del Perfil Editorial / Aprobador").
+*   **Identidad y Aprobador:** El usuario original como único aprobador estratégico e identidad central del canal principal. (Debe parametrizarse como "Responsable del Perfil Editorial / Aprobador").
 *   **Sector Operativo:** Las referencias explícitas a *logística, transporte, tráfico de mercancías, almacenes, y desorden de flujos de cadena de suministro*. (Quedan acotadas al caso de uso heredado).
 *   **CCT / Buyer Personas del Caso:** Referencias a *Director de Tráfico, CEO Logístico, Responsable de Almacén*. (Deben generalizarse a "Perfiles del Cliente Objetivo").
-*   **Frecuencia Rígida:** La regla universal de "3 publicaciones semanales oficiales" con días exactos (Jueves = Carrusel). (Debe ser una propiedad configurable del canal).
+*   **Frecuencia Rígida:** Una frecuencia rígida de publicaciones con días exactos. (Debe ser una propiedad configurable del canal).
 *   **Integraciones Técnicas:** Flujos y menciones a PriceMonitor, RSVP, y desarrollos en Python de esos proyectos específicos.
 
 ### Grupo C: Referencia Metodológica

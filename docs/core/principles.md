@@ -16,8 +16,8 @@ La consistencia no se mide en cantidad de posts semanales, sino en la solidez t�
 ## 2. Contenido Basado en Fuentes Reales
 El contenido debe nacer de fricciones operativas vividas, dudas repetidas en reuniones comerciales, problemas administrativos cotidianos o aprendizajes reales de proyectos. Se prohíbe generar contenido basado únicamente en abstracciones o tendencias del LLM sin anclaje en el negocio.
 
-## 3. Revisión Humana Obligatoria (Gate de Aprobación)
-El sistema opera bajo el principio "No Flight" (No vuela sin aprobación). Ninguna pieza de contenido puede considerarse válida para publicación sin la confirmación explícita del responsable del perfil editorial.
+## 3. Aprobación Humana Adaptativa
+El sistema opera bajo un control de publicación regulado por niveles de autonomía progresiva. Durante la fase de calibración inicial, se requiere una aprobación manual estricta por parte del responsable del perfil editorial. A medida que el sistema madura, el framework admite configuraciones de aprobación compacta por lotes o revisión por excepción, garantizando la trazabilidad y la existencia de gates adaptados a cada nivel de madurez operativa.
 
 ## 4. No Inventar Casos ni Resultados
 Está terminantemente prohibido falsear testimonios, inventar retornos de inversión (ROI) inexistentes, o simular cuellos de botella que no hayan ocurrido. Los casos y ejemplos se usan para explicar problemas reales y deben presentarse con total honestidad.

@@ -17,7 +17,7 @@ Cada responsabilidad mapeada debe ubicarse de manera preliminar en uno de los si
 *   **Agente:** Se selecciona cuando la tarea requiere criterio propio complejo, evaluación de contextos variables, razonamiento subjetivo sobre el tono o capacidad para arbitrar, devolver o bloquear el flujo de trabajo basándose en múltiples variables.
 *   **Skill:** Se aplica a tareas acotadas, mecánicas, repetibles y estructuradas con entradas y salidas lógicas cerradas (ej. llamadas a APIs internas, conversiones de formato de texto o validaciones de expresiones regulares).
 *   **Gate:** Puntos de control lógico que evalúan si un entregable cumple con los criterios de paso y le asignan un estado estandarizado para permitir o impedir su avance.
-*   **Regla:** Directrices o restricciones transversales que el sistema debe aplicar de forma constante a lo largo de todo el pipeline (ej. prohibición de palabras clave del sector de logística en el núcleo).
+*   **Regla:** Directrices o restricciones transversales que el sistema debe aplicar de forma constante a lo largo de todo el pipeline (ej. regulación de las menciones de logística en el núcleo, prohibiéndolas como reglas universales pero permitiéndolas como referencias normativas o históricas de ejemplo).
 *   **Workflow:** Secuencias ordenadas de pasos y orquestaciones que conectan las entradas, los agentes, las skills y los gates para procesar la información.
 *   **Configuración:** Parámetros o archivos locales que definen el comportamiento de un caso de uso, canal o perfil específico sin alterar el código (ej. frecuencia de publicación).
 *   **Fase futura:** Responsabilidades previstas que quedan fuera del alcance del desarrollo inicial y cuya implementación se pospone para evitar la sobrearquitectura.
@@ -32,20 +32,20 @@ Cada responsabilidad mapeada debe ubicarse de manera preliminar en uno de los si
 | 2 | Estratega de contenido / posicionamiento | Alineación del contenido con los objetivos de negocio a largo plazo. | Cuestionario de posicionamiento del cliente. | Pilares de contenido y narrativas definidos. | Configuración / Documento base | Fase 1 | Publicaciones inconexas que no construyen autoridad de marca. |
 | 3 | Especialista en audiencia / cliente objetivo | Adecuación del nivel de lenguaje y temas de interés al buyer persona. | Ficha de perfil de audiencia del cliente. | Filtro de validación de audiencia. | Regla / Configuración del perfil | Fase 1 | Post que resultan demasiado técnicos o irrelevantes para el decisor de compra. |
 | 4 | Curador de materia prima / investigador | Filtrado y ordenación de las ideas del intake para seleccionar insumos útiles. | Notas operativas crudas de la semana. | Ideas de posts seleccionadas y calificadas. | Rol manual / Workflow semanal | Fase 1 | Sobrecarga de borrradores basados en ideas débiles o repetidas. |
-| 5 | Redactor LinkedIn | Estructuración y redacción inicial de la publicación candidata. | Ficha de señal de entrada aprobada. | Borrador estructurado de post o carrusel. | Agente de redacción | Fase 2 | Bloqueo operativo por incapacidad para generar textos consistentes. |
+| 5 | Redactor LinkedIn | Estructuración y redacción inicial de la publicación candidata. | Ficha de señal de entrada aprobada. | Borrador estructurado de post o carrusel. | Posible agente futuro / Responsabilidad funcional | Fase 2 | Bloqueo operativo por incapacidad para generar textos consistentes. |
 | 6 | Especialista de hooks | Captar la atención en el feed en los primeros tres segundos de visualización. | Copy del cuerpo del post. | Alternativas de hooks de alto impacto. | Skill de formateo / Modificador | Fase 2 | Bajas tasas de lectura del contenido por aperturas aburridas. |
-| 7 | Editor de claridad y voz | Fluidez, sencillez de lectura y adecuación al estilo verbal del perfil. | Borrador crudo de la publicación. | Post con oraciones optimizadas para móviles. | Agente editor / Skill lingüística | Fase 2 | Textos difíciles de leer o que suenan de forma robótica y artificial. |
+| 7 | Editor de claridad y voz | Fluidez, sencillez de lectura y adecuación al estilo verbal del perfil. | Borrador crudo de la publicación. | Post con oraciones optimizadas para móviles. | Posible agente futuro / Responsabilidad funcional | Fase 2 | Textos difíciles de leer o que suenan de forma robótica y artificial. |
 | 8 | Especialista en voz, tono y narrativa | Coherencia del arquetipo verbal del cliente en todo el lote de contenido. | Manual de estilo de voz del cliente. | Reporte de cumplimiento del arquetipo de voz. | Regla / Validador semántico | Fase 1 (Diseño) | Pérdida de la identidad verbal o mezcla de estilos contradictorios. |
 | 9 | Especialista en marca / posicionamiento | Evitar que el post se desvíe de los temas estratégicos de la cuenta. | Directrices de posicionamiento del perfil. | Validación de pilares temáticos del post. | Regla de exclusión / Configuración | Fase 1 | Dilución del nicho de mercado del autor por hablar de temas ajenos. |
 | 10 | Diseñador visual / diseñador gráfico | Soporte visual que facilite la asimilación del contenido técnico. | Copy final de la publicación. | Propuesta de diseño gráfico o esquema. | Fase futura / Proceso manual | Fase 7 | Publicaciones áridas de texto plano sobre conceptos de alta complejidad. |
-| 11 | Diseñador de carruseles | Estructura y flujo narrativo slide por slide de documentos PDF. | Post de estructura secuencial. | Guion visual y de textos de cada slide. | Agente redactor (en modo carrusel) | Fase 2 | Carruseles con exceso de texto o sin un flujo explicativo coherente. |
+| 11 | Diseñador de carruseles | Estructura y flujo narrativo slide por slide de documentos PDF. | Post de estructura secuencial. | Guion visual y de textos de cada slide. | Posible agente futuro / responsabilidad funcional (modo carrusel) | Fase 2 | Carruseles con exceso de texto o sin un flujo explicativo coherente. |
 | 12 | Director de arte / imágenes | Consistencia estética y calidad de los recursos gráficos adjuntos. | Especificación visual del post. | Imagen final aprobada. | Fase futura | Fase 7 | Incorporación de imágenes de stock genéricas o de IA artificial de baja calidad. |
 | 13 | Auditor editorial / calidad | Calificación objetiva de la legibilidad, formato y valor de la pieza. | Contrato de salida del post completo. | Estado de auditoría asignado. | Gate de calidad editorial | Fase 1 (Diseño) / Fase 4 (Auditoría) | Envío al aprobador de publicaciones con errores de Hook, CTA o formato. |
 | 14 | Auditor de riesgo / claims | Protección legal y reputacional sobre las afirmaciones vertidas. | Borrador de post y referencias de origen. | Reporte de nivel de riesgo y claims. | Gate de claims y riesgos | Fase 1 / Fase 4 | Demandas legales, revelación de secretos o promesas falsas de ROI. |
 | 15 | Especialista de formato LinkedIn | Ajuste visual de párrafos y emojis para maximizar el CTR móvil. | Borrador de post validado. | Post formateado según las reglas de visualización. | Skill de formateo visual | Fase 2 | Visualización rota en smartphones con párrafos densos de texto. |
 | 16 | Analista de rendimiento / aprendizaje | Mejora continua del pipeline a partir del feedback de analítica. | Métricas del canal y DMs generados. | Ajustes de prompts y base de conocimiento. | Fase futura | Fase 7 | Repetición de errores o incapacidad para optimizar el tono según respuestas. |
 | 17 | Gestor de comunidad / interacción | Activación de debates en la sección de comentarios del post publicado. | Comentarios de la audiencia en LinkedIn. | Respuestas rápidas del autor del perfil. | Fase futura / Rol manual | Fase 7 | Muerte algorítmica del post por falta de respuestas e interacción inicial. |
-| 18 | Responsable de aprobación humana | Control final del contenido bajo el principio de firma manual del lote. | Publicaciones candidatas en READY_TO_APPROVE. | Firma digital / Luz verde de publicación. | Proceso manual del aprobador | Fase 1 | Publicación no autorizada de contenido sensible o desalineado. |
+| 18 | Responsable de aprobación humana | Control final del contenido bajo el principio de firma manual del lote. | Publicaciones candidatas en READY_TO_APPROVE. | Firma digital / Luz verde de publicación. | Proceso manual del aprobador (adaptable según nivel de autonomía) | Fase 1 | Publicación no autorizada de contenido sensible o desalineado. |
 
 ---
 
@@ -78,7 +78,7 @@ Cada responsabilidad mapeada debe ubicarse de manera preliminar en uno de los si
 ### 3.5 Redactor LinkedIn
 *   **Función:** Transforma el brief aprobado de la señal de entrada en un borrador de publicación que respeta la estructura de fricción y solución.
 *   **Qué NO hace:** No toma la decisión final de publicación ni altera de forma autónoma los pilares estratégicos de la marca.
-*   **Representación arquitectónica:** Agente de IA especializado en redacción estructurada.
+*   **Representación arquitectónica:** Posible agente futuro / responsabilidad funcional de redacción.
 *   **Documentos relacionados:** `post_output_contract.md`, `input_signal_template.md`.
 
 ### 3.6 Especialista de hooks
@@ -90,7 +90,7 @@ Cada responsabilidad mapeada debe ubicarse de manera preliminar en uno de los si
 ### 3.7 Editor de claridad y voz
 *   **Función:** Adapta el borrador crudo de la publicación para asegurar que fluya de forma natural y mantenga frases cortas optimizadas para dispositivos móviles.
 *   **Qué NO hace:** No añade información o claims técnicos que no estuvieran en el brief original.
-*   **Representación arquitectónica:** Agente de IA enfocado en la edición de estilo o skill de limpieza lingüística.
+*   **Representación arquitectónica:** Posible agente futuro / responsabilidad funcional de edición de estilo o posible skill futura.
 *   **Documentos relacionados:** `post_output_contract.md`, `voice_and_style.md`, `visual_rules.md`.
 
 ### 3.8 Especialista en voz, tono y narrativa
@@ -114,7 +114,7 @@ Cada responsabilidad mapeada debe ubicarse de manera preliminar en uno de los si
 ### 3.11 Diseñador de carruseles
 *   **Función:** Divide y estructura los contenidos de un post de Tipo 1 en un guion estructurado slide por slide para facilitar su diseño y lectura en formato PDF.
 *   **Qué NO hace:** No define la identidad corporativa de la marca ni diseña de forma directa los archivos finales.
-*   **Representación arquitectónica:** Agente de IA redactor en modo de generación de carruseles.
+*   **Representación arquitectónica:** Posible agente futuro / responsabilidad funcional en modo carrusel.
 *   **Documentos relacionados:** `visual_rules.md`, `post_output_contract.md`.
 
 ### 3.12 Director de arte / especialista en imágenes
@@ -138,7 +138,7 @@ Cada responsabilidad mapeada debe ubicarse de manera preliminar en uno de los si
 ### 3.15 Especialista de formato LinkedIn
 *   **Función:** Formatea el copy final optimizando el uso de emojis, negritas permitidas, espacios en blanco y saltos de línea para móviles.
 *   **Qué NO hace:** No altera el fondo del mensaje ni añade promesas o claims de negocio.
-*   **Representación arquitectónica:** Skill determinista de limpieza visual de textos.
+*   **Representación arquitectónica:** Posible skill futura / Ubicación arquitectónica preliminar.
 *   **Documentos relacionados:** `visual_rules.md`, `post_output_contract.md`.
 
 ### 3.16 Analista de rendimiento / aprendizaje
@@ -156,14 +156,14 @@ Cada responsabilidad mapeada debe ubicarse de manera preliminar en uno de los si
 ### 3.18 Responsable de aprobación humana
 *   **Función:** Valida y firma el lote de publicaciones candidatas en estado `READY_TO_APPROVE` para dar la luz verde definitiva para su publicación.
 *   **Qué NO hace:** No debe realizar tareas de edición manual de formato ni comprobación ortográfica sistemática que correspondan a la auditoría interna.
-*   **Representación arquitectónica:** Gate manual infranqueable y soberano del aprobador.
+*   **Representación arquitectónica:** Gate adaptativo según nivel de autonomía (firma manual obligatoria en calibración o aprobación compacta por lotes en producción).
 *   **Documentos relacionados:** `principles.md`, `antigravity_task_protocol.md`, `post_output_contract.md`.
 
 ---
 
 ## 4. Responsabilidades que NO deben implementarse todavía
 Las siguientes funciones estratégicas quedan fuera del alcance del desarrollo inicial y no deben ser codificadas ni automatizadas en la Fase 1 del proyecto:
--   **Publicación automática:** El pipeline debe terminar en la generación de archivos PDF o textos en formato crudo listos para el copiado o importación manual del usuario.
+-   **Publicación automática:** Ubicación arquitectónica preliminar: el flujo termina en la generación de archivos PDF o textos en formato crudo listos para el copiado manual del usuario.
 -   **Integración con API de LinkedIn:** No se realizarán desarrollos ni conexiones de software con servicios externos de publicación desatendida.
 -   **Uso de MCP (Model Context Protocol):** No se integrarán servidores de comunicación agéntica para la conexión de herramientas complejas externas.
 -   **Automatización de comentarios:** Queda prohibido el diseño de bots de interacción automática en el feed.
@@ -175,10 +175,10 @@ Las siguientes funciones estratégicas quedan fuera del alcance del desarrollo i
 ---
 
 ## 5. Reglas para evitar sobrearquitectura
--   **Higiene de Agentes:** No crear un agente autónomo para cada especialista funcional. Las tareas de redacción, hooks y formato se agruparán en un único agente multifuncional de redacción en la Fase 2.
+-   **Higiene de Agentes:** No estructurar agentes independientes para cada especialista funcional de forma prematura. Se propone evaluar la agrupación de tareas de redacción, hooks y formato en responsabilidades funcionales consolidadas en la Fase 2 bajo el principio de minimalismo agéntico.
 -   **Desarrollo de Skills bajo demanda:** No programar funciones o skills de software en Python hasta que sus entradas y salidas estén delimitadas y aprobadas en el catálogo de herramientas.
 -   **Workflow sin código previo:** No modelar ni programar orquestaciones complejas de workflows sin haber validado manualmente la efectividad de las secuencias en la fase de dry runs.
--   **Publicación controlada:** El sistema no debe automatizar la salida a canales externos. La firma humana es un requisito lógico invariable.
+-   **Publicación controlada:** La salida al canal se regula por niveles de autonomía y gates de calibración adaptativos, desde la aprobación manual individual en el inicio hasta firmas compactas en lotes o excepciones en fases avanzadas.
 -   **Auditoría interna previa:** El aprobador humano no debe ser utilizado como filtro corrector de fallos de formato, ortografía o tono que el validador agéntico interno debe descartar con antelación.
 -   **Aislamiento del Core:** No asociar las reglas del perfil `linkedin_autonomo_b2b` con las directrices generales del framework. Las reglas particulares de voz o frecuencia pertenecen a configuraciones locales.
 

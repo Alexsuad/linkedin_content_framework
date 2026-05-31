@@ -21,8 +21,11 @@ Antes de auditar, proponer cambios o modificar cualquier documento, el agente de
 
 ## 2. Reglas Operativas Innegociables
 
-*   **No Contaminar el Núcleo:** Queda estrictamente prohibido introducir referencias sobre "logística", "Alex" o "transporte" en los documentos generales de `docs/core/`, `docs/architecture/` o `docs/governance/`. Esas referencias pertenecen exclusivamente a la capa de `docs/use_cases/`.
-*   **No Dogmatizar Decisiones Locales:** No conviertas los ritmos, cadencias o configuraciones del caso de uso heredado (ej. 3 publicaciones semanales fijas, carrusel los jueves) en leyes universales del framework. El sistema es parametrizable.
+*   **No Contaminar el Núcleo:** Se prohíbe usar logística, Alex, transporte o cualquier caso heredado como identidad, audiencia, aprobador, frecuencia o regla universal del framework.
+
+    Se permiten menciones normativas cuando el texto explique que esos elementos pertenecen a casos heredados, ejemplos, configuraciones específicas o referencias históricas que no deben contaminar el núcleo general.
+
+*   **No Dogmatizar Decisiones Locales:** No conviertas los ritmos, cadencias o configuraciones del caso de uso heredado (ej. frecuencias fijas, carruseles en días específicos) en leyes universales del framework. El sistema es parametrizable.
 *   **No Crear Código sin Aprobación:** Este repositorio está en fase **pre-code**. No generes scripts en Python, APIs, conectores u otros desarrollos técnicos de software hasta que la fase sea formalmente cerrada y aprobada por el usuario.
 *   **No Modificar Archivos Fuera del Repositorio:** El alcance de tus tareas se limita exclusivamente a `/home/nalex/Proyectos/linkedin_content_framework`. No borres ni edites archivos fuera de esta ruta.
 *   **Aislamiento del Origen:** Bajo ninguna circunstancia edites, muevas o borres archivos del repositorio fuente `/home/nalex/Proyectos/Automatizacion_linkedin`. Su uso es estrictamente de solo lectura.
