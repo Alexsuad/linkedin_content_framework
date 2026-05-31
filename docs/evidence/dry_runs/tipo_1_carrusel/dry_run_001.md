@@ -1,5 +1,7 @@
 <!-- File: docs/evidence/dry_runs/tipo_1_carrusel/dry_run_001.md -->
 
+Esta evidencia corresponde al perfil operativo de referencia linkedin_autonomo_b2b. No debe interpretarse como plantilla universal del framework. Otros perfiles editoriales, como linkedin_empleado_profesional, linkedin_empresa o linkedin_personal_profesional, deberán tener dry runs propios con señales, objetivos, tono, CTA y criterios de evaluación adecuados a su contexto.
+
 # Dry run 001 — TIPO 1 carrusel estructurado (Evidencia Oficial)
 
 > [!NOTE]

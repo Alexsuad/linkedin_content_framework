@@ -1,5 +1,7 @@
 <!-- File: docs/evidence/dry_runs/tipo_2_post_simple/dry_run_001.md -->
 
+Esta evidencia corresponde al perfil operativo de referencia linkedin_autonomo_b2b. No debe interpretarse como plantilla universal del framework. Otros perfiles editoriales, como linkedin_empleado_profesional, linkedin_empresa o linkedin_personal_profesional, deberán tener dry runs propios con señales, objetivos, tono, CTA y criterios de evaluación adecuados a su contexto.
+
 > [!NOTE]
 > **Aviso de simulación:** Este documento representa una simulación metodológica de prueba y validación documental (dry run) de flujos internos. No constituye una publicación real, no autoriza la publicación en canales externos de comunicación, ni implica la programación desatendida de copias de texto.
 
@@ -132,10 +134,10 @@ Se evalúa la seguridad y claims de la pieza bajo la `claims_and_risk_policy.md`
 *   **claim_detectado:** Ninguno que infrinja la política de riesgos.
 *   **motivo:**
     *   No se mencionan marcas, nombres de clientes reales ni datos confidenciales.
-    *   No se inventan porcentajes de éxito, ROI garantizados ni cifras financieras ficticias.
+    *   No se inventan porcentajes de éxito, promesas de ROI no verificadas ni cifras financieras ficticias.
     *   Las afirmaciones de fricción diaria son descriptivas y generales, ampliamente reconocibles en el sector B2B.
     *   La automatización no se vende como una solución mágica sino condicionada al orden operativo previo.
-*   **accion_recomendada:** Declarar la pieza como segura y apta para la firma del aprobador.
+*   **accion_recomendada:** Declarar la pieza como segura y apta para aprobación compacta del responsable editorial.
 *   **versión_segura_sugerida:** No aplica (el texto actual ya cumple con los criterios de seguridad).
 
 ---
