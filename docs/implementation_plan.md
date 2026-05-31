@@ -2,7 +2,7 @@
 
 ## 1. Propósito del Plan
 
-Este documento organiza el desarrollo del framework de contenido para LinkedIn por fases, metas, entregables, criterios de cierre y riesgos. El plan prioriza la definición de la **capa editorial-operativa, el intake del cliente, los esquemas de validación adaptativa (gates), la trazabilidad documental y los criterios de aceptación** antes de saltar directamente al diseño de agentes de IA, skills de código o flujos automatizados de publicación.
+Este documento organiza el desarrollo del framework de contenido para LinkedIn por fases, metas, entregables, criterios de cierre y riesgos. El plan prioriza la definición de la **capa editorial-operativa, el intake del perfil o proyecto, los esquemas de validación adaptativa (gates), la trazabilidad documental y los criterios de aceptación** antes de saltar directamente al diseño de agentes de IA, skills de código o flujos automatizados de publicación.
 
 El framework opera bajo la premisa de que una automatización sólida solo es posible si existe un proceso manual bien definido, estable y auditable.
 
@@ -12,14 +12,14 @@ El framework opera bajo la premisa de que una automatización sólida solo es po
 
 El desarrollo del framework se rige por los siguientes principios metodológicos:
 
-*   **Hibridación del Control:** La Inteligencia Artificial propone y redacta el contenido, herramientas deterministas escritas en Python verifican el cumplimiento de reglas formales del repositorio, el aprobador humano valida la calidad y da la luz verde, y Git registra la traza final del proceso.
+*   **Hibridación del Control:** La Inteligencia Artificial propone y redacta el contenido, herramientas deterministas escritas en Python verificarán el cumplimiento de reglas formales del repositorio, el aprobador humano valida la calidad y da la luz verde, y Git registra la traza final del proceso.
 *   **Validación Manual Previa:** Ningún flujo o regla se automatizará en código sin haber sido ejecutado y validado de forma manual mediante simulaciones ("dry runs").
 *   **Minimalismo Agéntico:** No se crearán agentes de IA si una skill, regla estricta de validación, gate o workflow documental puede resolver la responsabilidad de forma más sencilla y determinista.
 *   **Aprobación Humana Adaptativa:** El framework regula la salida al canal según niveles de autonomía progresiva. Aunque durante la fase de calibración inicial la validación humana manual de cada pieza es obligatoria, en fases maduras el sistema admite configuraciones de aprobación compacta por lotes o revisión por excepción.
 *   **Higiene Conceptual del Núcleo:** Se prohíbe usar logística, Alex, transporte o cualquier caso heredado como identidad, audiencia, aprobador, frecuencia o regla universal del framework en el núcleo (`docs/core/`). Sin embargo, se permiten menciones normativas cuando expliquen que pertenecen a casos heredados, ejemplos o referencias históricas que no deben contaminar el núcleo general.
-*   **Configurabilidad de Canal y Perfil:** LinkedIn es el canal de destino del framework, pero el sistema debe permitir configurar perfiles (autónomo B2B, empleado profesional, marca corporativa) y temáticas de forma modular mediante configuraciones aisladas.
-*   **Enfoque en Problemas Reales:** El contenido debe nutrirse de señales reales del negocio (fricciones cotidianas, dudas comerciales, aprendizajes operativos), prohibiendo la invención de casos o la generación genérica basada puramente en abstracciones de un LLM.
-*   **Publicabilidad sobre Buena Redacción:** El sistema no debe evaluar si un post está "bien escrito" en términos literarios, sino si cumple con los criterios de "publicabilidad" (alineación con la marca, mitigación de riesgos de reputación, aportación de valor real para la audiencia y llamadas a la acción comerciales adecuadas).
+*   **Configurabilidad de Canal y Perfil:** LinkedIn es el canal de destino del framework, pero el sistema debe permitir configurar perfiles y temáticas de forma modular mediante configuraciones aisladas.
+*   **Enfoque en Problemas Reales:** El contenido debe nutrirse de señales reales de la actividad (fricciones cotidianas, dudas operativas o de alineación, aprendizajes operativos), prohibiendo la invención de casos o la generación genérica basada puramente en abstracciones de un LLM.
+*   **Publicabilidad sobre Buena Redacción:** El sistema no debe evaluar si un post está "bien escrito" en términos literarios, sino si cumple con los criterios de "publicabilidad" (alineación con la marca, mitigación de riesgos de reputación, aportación de valor real para la audiencia e interacciones cualificadas adecuadas según el perfil).
 
 ---
 
@@ -55,12 +55,12 @@ La **Fase 0** (Base del repositorio) se declara formalmente **cerrada** con el s
 
 ## 5. Fase 1 — Intake y Capa Editorial-Operativa Mínima
 
-*   **Objetivo:** Crear el pipeline documental mínimo que recoja la información estratégica de un cliente, estructure la narrativa de la marca, transforme las señales cotidianas de negocio en insumos listos para su redacción y establezca los gates de control de calidad.
+*   **Objetivo:** Crear el pipeline documental mínimo que recoja la información estratégica de un perfil o proyecto, estructure la narrativa de la marca, transforme las señales cotidianas de la actividad en insumos listos para su redacción y establezca los gates de control de calidad.
 
 ### Entregables Obligatorios:
 
 #### Templates de Intake y Entrada:
-*   `docs/templates/client_intake_template.md`: Cuestionario de posicionamiento estratégico de marca personal o corporativa.
+*   `docs/templates/client_intake_template.md`: Cuestionario de posicionamiento estratégico de marca personal o corporativa (Intake del Perfil o Proyecto).
 *   `docs/templates/voice_and_narrative_template.md`: Definición de arquetipos de voz, tono y matrices de mensajes clave.
 *   `docs/templates/weekly_content_intake_template.md`: Planificación semanal y distribución temática.
 *   `docs/templates/input_signal_template.md`: Formato estructurado para capturar señales reales (fricciones, ideas, aprendizajes).
@@ -82,22 +82,21 @@ La **Fase 0** (Base del repositorio) se declara formalmente **cerrada** con el s
 
 ---
 
-### Especialista de Intake y Acompañamiento del Cliente
-
-*   **Definición:** Rol responsable de guiar al cliente durante la recogida de información estratégica y semanal. Actúa como el primer gate de calidad, asegurando que las respuestas no sean genéricas o incompletas y traduciendo la información en insumos estructurados.
+### Especialista de Intake y Acompañamiento del Perfil
+*   **Definición:** Rol responsable de guiar al emisor o responsable durante la recogida de información estratégica y semanal. Actúa como el primer gate de calidad, asegurando que las respuestas no sean genéricas o incompletas y traduciendo la información en insumos estructurados.
 *   **Límites:**
     *   No genera borradores de publicaciones.
     *   No aprueba borradores finales de cara a su publicación en LinkedIn.
     *   No publica de forma directa ni gestiona la consola del canal.
-    *   No define de forma autónoma la estrategia editorial de la marca sin aprobación del cliente.
+    *   No define de forma autónoma la estrategia editorial de la marca sin aprobación del responsable del perfil.
 *   **Conexión Operativa:** Este rol utiliza el `client_intake_template.md`, la `weekly_content_intake_template.md` y las señales estructuradas mediante `input_signal_template.md`, validando la suficiencia mediante el `brief_sufficiency_gate.md` y reportando sus interacciones en la `functional_specialists_matrix.md`.
 
 *   **Criterio de Cierre de Fase 1:** La fase se considera cerrada cuando los documentos del repositorio permitan responder a:
-    1.  ¿Quién es el cliente y qué valor comercial ofrece?
-    2.  ¿Qué objetivos de negocio tiene el canal de LinkedIn?
-    3.  ¿A qué perfil de audiencia (buyer persona) se dirige el contenido?
+    1.  ¿Quién es el emisor y qué valor diferencial ofrece?
+    2.  ¿Qué objetivos tiene el canal de LinkedIn?
+    3.  ¿A qué audiencia objetivo se dirige el contenido?
     4.  ¿Cómo debe sonar el perfil (tono y arquetipo de voz)?
-    5.  ¿Qué narrativas transversales sustentan la autoridad de la marca?
+    5.  ¿Qué narrativas transversales sustentan la autoridad del perfil?
     6.  ¿Qué frecuencia semanal y distribución temática se han pactado?
     7.  ¿Qué temas y palabras específicas están prohibidos en la comunicación?
     8.  ¿Qué información mínima y evidencias deben alimentar cada publicación?
@@ -107,7 +106,7 @@ La **Fase 0** (Base del repositorio) se declara formalmente **cerrada** con el s
     12. ¿Qué criterios de riesgo (claims, legalidad, reputación) pueden bloquear un post?
     13. ¿Qué hacer ante un brief que no cumple con el nivel mínimo de información?
     14. ¿Cómo se gestionan las correcciones y la devolución de publicaciones rechazadas?
-    15. ¿Qué parte del proceso requiere firma humana según el nivel de autonomía y fase de calibración definidos?
+    15. ¿Qué parte del proceso requiere aprobación humana según el nivel de autonomía y fase de calibración definidos?
     16. ¿Qué formato es el adecuado para cada publicación según su objetivo?
     17. ¿Por qué una publicación es considerada "publicable" y no simplemente "bien escrita"?
     18. ¿Cómo se organizan los diferentes roles dentro de la matriz de especialistas funcionales?
@@ -140,7 +139,7 @@ La **Fase 0** (Base del repositorio) se declara formalmente **cerrada** con el s
 *   **Objetivo:** Diseñar el flujo secuencial de paso del contenido, asegurando la trazabilidad desde que una señal entra en `input/` hasta que el post aprobado se almacena para su publicación.
 
 ### Workflows Mínimos:
-1.  **Intake Inicial del Cliente:** Proceso para configurar la cuenta editorial.
+1.  **Intake Inicial del Perfil o Proyecto:** Proceso para configurar la cuenta editorial.
 2.  **Definición de Voz y Narrativa:** Extracción de arquetipos y creación del manual de estilo de la cuenta.
 3.  **Intake Semanal de Señales:** Flujo para consolidar y seleccionar los temas semanales.
 4.  **Procesamiento de Señal Individual:** Transformación de ideas crudas en inputs estructurados.
@@ -177,11 +176,11 @@ La **Fase 0** (Base del repositorio) se declara formalmente **cerrada** con el s
 *   **Objetivo:** Ejecutar manualmente, utilizando los templates creados, dos flujos completos de producción de contenido para validar el framework antes de codificar la lógica agéntica.
 
 ### Pruebas de Simulación Obligatorias:
-1.  **Dry Run de Post Simple (Tipo 2):** Transformar una fricción de negocio real en un post de texto simple bajo el contrato de salida, pasando por el gate editorial, revisión de claims y aprobación.
+1.  **Dry Run de Post Simple (Tipo 2):** Transformar una fricción real de la actividad en un post de texto simple bajo el contrato de salida, pasando por el gate editorial, revisión de claims y aprobación.
 2.  **Dry Run de Carrusel (Tipo 1):** Transformar un aprendizaje técnico en un esquema visual estructurado y guionizado para LinkedIn.
 
 ### Trazabilidad y Entregables:
-*   Se guardarán de forma estructurada en `output/trace/` todos los insumos de los dry runs: el input crudo, el brief sufficiency gate aprobado, el borrador, los checks del editorial gate, el análisis de claims, la firma del aprobador y el borrador final "publicable".
+*   Se guardarán de forma estructurada en `output/trace/` todos los insumos de los dry runs: el input crudo, el brief sufficiency gate aprobado, el borrador, los checks del editorial gate, el análisis de claims, la aprobación del responsable y el borrador final "publicable".
 
 *   **Criterio de Cierre:** Demostrar documentalmente que el pipeline manual puede generar borradores publicables y conformes sin necesidad de asistencia autónoma.
 
@@ -242,11 +241,11 @@ graph TD
     *   *Mitigación:* Mantener la regla innegociable de no escribir código de aplicación en la Fase 1.
 *   **Fragmentación de Agentes:** Creación de múltiples perfiles de IA con tareas solapadas.
     *   *Mitigación:* Agrupar responsabilidades en la Fase 2 bajo el principio de minimalismo agéntico.
-*   **Contenido Genérico de LLM:** Publicar posts vacíos o basados en abstracciones de la IA sin datos reales del negocio.
+*   **Contenido Genérico de LLM:** Publicar posts vacíos o basados en abstracciones de la IA sin datos reales de la actividad.
     *   *Mitigación:* Exigir que todo post se asocie a una traza que identifique la señal real cruda en `input/`.
-*   **Pérdida de la Voz del Cliente:** Que las iteraciones del LLM diluyan el tono o la identidad del perfil del cliente.
+*   **Pérdida de la Voz del Emisor:** Que las iteraciones del LLM diluyan el tono o la identidad del perfil del emisor.
     *   *Mitigación:* Controlar mediante el arquetipo de voz configurado en la Fase 1 y la verificación de calidad en el gate editorial.
-*   **Ausencia de Datos de Soporte (Claims):** Emitir publicaciones que realicen declaraciones o promesas que la empresa o el perfil no puedan respaldar.
+*   **Ausencia de Datos de Soporte (Claims):** Emitir publicaciones que realicen declaraciones o promesas que el perfil o proyecto no puedan respaldar.
     *   *Mitigación:* Filtrar mediante la aplicación de la `claims_and_risk_policy.md`.
 *   **Contaminación Conceptual del Core:** Acoplar el núcleo metodológico general a problemas logísticos o datos del aprobador heredado como reglas fijas.
     *   *Mitigación:* Validar de forma automatizada que las menciones en el núcleo general se limiten estrictamente a referencias normativas o ejemplos históricos autorizados.
