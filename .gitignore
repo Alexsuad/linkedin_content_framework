@@ -41,3 +41,7 @@ C:\\Mis Documentos\\archivos_zip/
 C:/Mis Documentos/archivos_zip/
 archivos_zip/
 *.zip
+
+# Referencias privadas locales no versionadas
+.local_reference/
+
